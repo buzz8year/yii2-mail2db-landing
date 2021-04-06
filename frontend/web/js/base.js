@@ -128,48 +128,48 @@ $(document).ready(function(){
 	});
 	
 
-	$(".setPost2").click(function(event){
-		event.preventDefault();
+	// $(".setPost2").click(function(event){
+	// 	event.preventDefault();
 		
-		var parent = $(this).parent().parent();
+	// 	var parent = $(this).parent().parent();
 		
-		parent.find(".required").css("border", "2px solid #adaeae");
+	// 	parent.find(".required").css("border", "2px solid #adaeae");
 		
-		var pole1 = parent.find("input[name=pole1]").val().trim();
-		var pole2 = parent.find("input[name=pole2]").val().trim();
-		var pole3 = parent.find("textarea[name=pole3]").val().trim();
+	// 	var pole1 = parent.find("input[name=pole1]").val().trim();
+	// 	var pole2 = parent.find("input[name=pole2]").val().trim();
+	// 	var pole3 = parent.find("textarea[name=pole3]").val().trim();
 		
 		
-		var err = 1;
+	// 	var err = 1;
 		
-		parent.find(".required").each(function(){
+	// 	parent.find(".required").each(function(){
 
-			if ($(this).find(".inppole").val().trim() == '') {
-				err = 0;
-				$(this).css("border", "2px solid red");
-			}
-		});
+	// 		if ($(this).find(".inppole").val().trim() == '') {
+	// 			err = 0;
+	// 			$(this).css("border", "2px solid red");
+	// 		}
+	// 	});
 			
-		if (err) {
+	// 	if (err) {
 			
-			$.ajax({
-				type: "POST",
-				url: "/email/post2.php",
-				data: "pole1="+pole1+"&pole2="+pole2+"&pole3="+pole3,
-				success: function(msg){	
+	// 		$.ajax({
+	// 			type: "POST",
+	// 			url: "/email/post2.php",
+	// 			data: "pole1="+pole1+"&pole2="+pole2+"&pole3="+pole3,
+	// 			success: function(msg){	
 		
-				}
-			});
+	// 			}
+	// 		});
 		
-			parent.find("input[name=pole1]").val("");
-			parent.find("input[name=pole2]").val("");
-			parent.find("textarea[name=pole3]").val("");
+	// 		parent.find("input[name=pole1]").val("");
+	// 		parent.find("input[name=pole2]").val("");
+	// 		parent.find("textarea[name=pole3]").val("");
 		
-			parent.find(".box-start1").css("display", "none");	
-			parent.find(".box-end1").css("display", "block");	
+	// 		parent.find(".box-start1").css("display", "none");	
+	// 		parent.find(".box-end1").css("display", "block");	
 
-		}
-	});	
+	// 	}
+	// });	
 
 
 	$(".setPost3").click(function(event){

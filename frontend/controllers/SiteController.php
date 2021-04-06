@@ -153,8 +153,8 @@ class SiteController extends Controller
             else return json_encode('There was an error sending your message.');
         } 
         
-        else return null;
-        // else return json_encode(Yii::$app->request->post());
+        // else return null;
+        else return json_encode(Yii::$app->request->post());
         // else return json_encode($model->errors);
     }
 
@@ -172,6 +172,7 @@ class SiteController extends Controller
             else return json_encode('There was an error sending your message.');
         } 
         
+        // else return null;
         else return json_encode(Yii::$app->request->post());
         // else return json_encode($model->errors);
     }
