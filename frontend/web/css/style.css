@@ -134,13 +134,13 @@ input, button, img, textarea {outline:none !important;}
     margin-top:60px; position:relative;
 }
 
-.block4-txt1 {position:absolute; top:70px; right:250px; width:980px; font-size:24px; line-height:28px; font-weight:600; color:#000;}
-.block4-txt2 {position:absolute; top:240px; right:170px; width:980px; font-size:24px; line-height:28px; font-weight:600; color:#000;}
-.block4-txt3 {position:absolute; top:410px; right:110px; width:980px; font-size:24px; line-height:28px; font-weight:600; color:#000;}
-.block4-txt4 {position:absolute; top:610px; right:100px; width:980px; font-size:24px; line-height:28px; font-weight:600; color:#000;}
-.block4-txt5 {position:absolute; top:780px; right:100px; width:980px; font-size:24px; line-height:28px; font-weight:600; color:#000;}
-.block4-txt6 {position:absolute; top:960px; right:150px; width:980px; font-size:24px; line-height:28px; font-weight:600; color:#000;}
-.block4-txt7 {position:absolute; top:1110px; right:280px; width:980px; font-size:24px; line-height:28px; font-weight:600; color:#000;}
+.block4-txt1 {position:absolute; top:70px; right:250px; width:980px; font-size:24px; line-height:28px; font-weight:500; color:#777;}
+.block4-txt2 {position:absolute; top:240px; right:170px; width:980px; font-size:24px; line-height:28px; font-weight:500; color:#777;}
+.block4-txt3 {position:absolute; top:410px; right:110px; width:980px; font-size:24px; line-height:28px; font-weight:500; color:#777;}
+.block4-txt4 {position:absolute; top:610px; right:100px; width:980px; font-size:24px; line-height:28px; font-weight:500; color:#777;}
+.block4-txt5 {position:absolute; top:780px; right:100px; width:980px; font-size:24px; line-height:28px; font-weight:500; color:#777;}
+.block4-txt6 {position:absolute; top:960px; right:150px; width:980px; font-size:24px; line-height:28px; font-weight:500; color:#777;}
+.block4-txt7 {position:absolute; top:1130px; right:280px; width:980px; font-size:24px; line-height:28px; font-weight:500; color:#777;}
 
 .block5 {margin-top:200px;}
 .block5-label1 {font-size:44px; line-height:48px; font-weight:bold; text-align:center; background:url("../images/line2.png") no-repeat bottom center; padding-bottom:20px;}
