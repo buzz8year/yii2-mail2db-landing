@@ -97,61 +97,62 @@
     </div>
 </div>
 
-<div class="block3" id="block3">
-<div class="owl-carousel owl-carousel1">
-    <div class="container-fluid container-fluid1">
-        <div class="row">
-            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">              
-                
-                <div class="block3-block">
-                    <div class="block3-block-wr">
-                        <div class="block3-block-img"><img src="images/img1.png"></div>
-                        <div class="block3-block-label1">ХОЛОДА СИБИРИ</div>
-                        <div class="block3-block-label2">Холодный сибирский климат оптимален для отвода избыточного тепла</div>
+<!-- <div class="block3 hidden" id="block3">
+    <div class="owl-carousel owl-carousel1">
+
+        <div class="container-fluid container-fluid1">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">              
+                    
+                    <div class="block3-block">
+                        <div class="block3-block-wr">
+                            <div class="block3-block-img"><img src="images/img1.png"></div>
+                            <div class="block3-block-label1">ХОЛОДА СИБИРИ</div>
+                            <div class="block3-block-label2">Холодный сибирский климат оптимален для отвода избыточного тепла</div>
+                        </div>
                     </div>
+                    
+                </div>
+                <div class="col-lg-1 hidden-md hidden-sm hidden-xs">
+                </div>
+                <div class="col-lg-5 col-md-7 col-sm-6 col-xs-12">              
+                    
+                    <div class="block3-block-label3">ЧИСТАЯ ЭНЕРГИЯ БАЙКАЛА</div>
+                    <div class="block3-block-label4">Холода Сибири и качественная энергия ГЭС оптимальны для вычислений, потребляющих гигантское количество электроэнергии с выделением большого объёма тепла</div>
+                    
                 </div>
                 
             </div>
-            <div class="col-lg-1 hidden-md hidden-sm hidden-xs">
-            </div>
-            <div class="col-lg-5 col-md-7 col-sm-6 col-xs-12">              
-                
-                <div class="block3-block-label3">ЧИСТАЯ ЭНЕРГИЯ БАЙКАЛА</div>
-                <div class="block3-block-label4">Холода Сибири и качественная энергия ГЭС оптимальны для вычислений, потребляющих гигантское количество электроэнергии с выделением большого объёма тепла</div>
-                
-            </div>
-            
-        </div>
-        <div style="height:30px;"></div>
-    </div>      
-    
-    <div class="container-fluid container-fluid1">
-        <div class="row">
-            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">              
-                
-                <div class="block3-block">
-                    <div class="block3-block-wr">
-                        <div class="block3-block-img"><img src="images/img1.png"></div>
-                        <div class="block3-block-label1">ХОЛОДА СИБИРИ</div>
-                        <div class="block3-block-label2">Холодный сибирский климат оптимален для отвода избыточного тепла</div>
+            <div style="height:30px;"></div>
+        </div>      
+        
+        <div class="container-fluid container-fluid1">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">              
+                    
+                    <div class="block3-block">
+                        <div class="block3-block-wr">
+                            <div class="block3-block-img"><img src="images/img1.png"></div>
+                            <div class="block3-block-label1">ХОЛОДА СИБИРИ</div>
+                            <div class="block3-block-label2">Холодный сибирский климат оптимален для отвода избыточного тепла</div>
+                        </div>
                     </div>
+                    
+                </div>
+                <div class="col-lg-1 hidden-md hidden-sm hidden-xs">
+                </div>
+                <div class="col-lg-5 col-md-7 col-sm-6 col-xs-12">              
+                    
+                    <div class="block3-block-label3">ЧИСТАЯ ЭНЕРГИЯ БАЙКАЛА</div>
+                    <div class="block3-block-label4">Холода Сибири и качественная энергия ГЭС оптимальны для вычислений, потребляющих гигантское количество электроэнергии с выделением большого объёма тепла</div>
+                    
                 </div>
                 
             </div>
-            <div class="col-lg-1 hidden-md hidden-sm hidden-xs">
-            </div>
-            <div class="col-lg-5 col-md-7 col-sm-6 col-xs-12">              
-                
-                <div class="block3-block-label3">ЧИСТАЯ ЭНЕРГИЯ БАЙКАЛА</div>
-                <div class="block3-block-label4">Холода Сибири и качественная энергия ГЭС оптимальны для вычислений, потребляющих гигантское количество электроэнергии с выделением большого объёма тепла</div>
-                
-            </div>
-            
-        </div>
-        <div style="height:30px;"></div>
-    </div>  
-</div>
-</div>
+            <div style="height:30px;"></div>
+        </div>  
+    </div>
+</div> -->
 
 <div class="container-fluid container-fluid1">
     <div class="row">
@@ -252,7 +253,7 @@
             <div class="logo1"><img src="images/logo1.png"></div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="block7-label1">Digital Asset Management FZCO -</div>
+            <div class="block7-label1">Digital Asset Management -</div>
             <div class="block7-label2">один из крупнейших дата-центров в Восточной Сибири с мощностью свыше 5 МВт. Мы занимаемся промышленным хостингом компьютерного оборудования и разработкой IT решений для управления компьютерными сетями.</div>
             <div style="clear:both;"></div>
         </div>      
@@ -413,26 +414,26 @@
     </div>
 </div>
 
-<div class="block11" id="block11">
+<!-- <div class="block11 hidden" id="block11">
     <div class="container-fluid container-fluid1">
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="block11-label">ПАРТНЕРЫ</div>
-        </div>
-    </div>  
-    
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="box-partner" style="background-image:url('images/partners/1.png')"></div>
-            <div class="box-partner" style="background-image:url('images/partners/2.png')"></div>
-            <div class="box-partner" style="background-image:url('images/partners/3.png')"></div>
-            <div class="box-partner" style="background-image:url('images/partners/4.png')"></div>
-            <div class="box-partner" style="background-image:url('images/partners/5.png')"></div>
-            <div style="clear:both;"></div>
-        </div>
-    </div>  
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="block11-label">ПАРТНЕРЫ</div>
+            </div>
+        </div>  
+        
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="box-partner" style="background-image:url('images/partners/1.png')"></div>
+                <div class="box-partner" style="background-image:url('images/partners/2.png')"></div>
+                <div class="box-partner" style="background-image:url('images/partners/3.png')"></div>
+                <div class="box-partner" style="background-image:url('images/partners/4.png')"></div>
+                <div class="box-partner" style="background-image:url('images/partners/5.png')"></div>
+                <div style="clear:both;"></div>
+            </div>
+        </div>  
     </div>
-</div>
+</div> -->
 
 <div class="block12" id="block12">
     <div class="container-fluid container-fluid1">
@@ -494,7 +495,7 @@
                     <img src="images/c1.png">
                     <div class="box-contacts1">
                         <div class="box-contacts-label1">Адрес:</div>
-                        <div class="box-contacts-label2">&nbsp;</div>                   
+                        <div class="box-contacts-label2" style="max-width: 280px">Build. A2, Dubai Digital Park, Dubai Silicon Oasis, Dubai, United Arab Emirates</div>                   
                     </div>
                     <div style="clear:both;"></div>
                 </div>
@@ -507,7 +508,7 @@
                     <img src="images/c2.png">
                     <div class="box-contacts1">
                         <div class="box-contacts-label1">Почта:</div>
-                        <div class="box-contacts-label2">info@damfz.co</div>                    
+                        <div class="box-contacts-label2">damfzco@gmail.com</div>                    
                     </div>
                     <div style="clear:both;"></div>
                 </div>
@@ -520,7 +521,7 @@
                     <img src="images/c3.png">
                     <div class="box-contacts1">
                         <div class="box-contacts-label1">Телефон:</div>
-                        <div class="box-contacts-label2">+7 000 00 00 00</div>                  
+                        <div class="box-contacts-label2">+971 585 258 333</div>                  
                     </div>
                     <div style="clear:both;"></div>
                 </div>
@@ -531,37 +532,35 @@
     </div>
 </div>
 
-<div class="block14 hidden" id="block14">
+<!-- <div class="block14 hidden" id="block14">
     <div class="container-fluid container-fluid1">
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="block14-label">Подписаться на рассылку</div>
-        </div>
-    </div>  
-    
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">   
-            <div class="box-mail">      
-            <div class="box-mail-start1">       
-                
-                <div class="row">
-                    <div class="col-lg-7 col-md-8 col-sm-6 col-xs-12">      
-                        <div class="box-mail-inp required"><input type="text" class="inppole" name="pole1" value="" placeholder="Телефон или email"></div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="block14-label">Подписаться на рассылку</div>
+            </div>
+        </div>  
+        
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">   
+                <div class="box-mail">      
+                <div class="box-mail-start1">       
+                    
+                    <div class="row">
+                        <div class="col-lg-7 col-md-8 col-sm-6 col-xs-12">      
+                            <div class="box-mail-inp required"><input type="text" class="inppole" name="pole1" value="" placeholder="Телефон или email"></div>
+                        </div>
+                        <div class="col-lg-5 col-md-4 col-sm-6 col-xs-12">      
+                            <button class="btn btn-primary6 setPost3">подписаться</button>
+                        </div>                  
                     </div>
-                    <div class="col-lg-5 col-md-4 col-sm-6 col-xs-12">      
-                        <button class="btn btn-primary6 setPost3">подписаться</button>
-                    </div>                  
+                    
                 </div>
-                
-            </div>
-            <div class="box-mail-end1">Спасибо, ваше сообщение принято.</div>
+                <div class="box-mail-end1">Спасибо, ваше сообщение принято.</div>
+                </div>
             </div>
         </div>
-    </div>
-    
-    
     </div>  
-</div>  
+</div>  --> 
 
 <div class="box-footer">
     <div class="container-fluid container-fluid1">
