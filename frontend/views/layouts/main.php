@@ -70,10 +70,11 @@ AppAsset::register($this);
 
     <!-- <div class="container">
         <?php //echo Breadcrumbs::widget(['links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [] ]) ?>
-        <?php echo Alert::widget() ?>
+        <?php //echo Alert::widget() ?>
         <?php //echo $content ?>
     </div> -->
 
+    <?php echo Alert::widget() ?>
     <?= $content ?>
 
 </div>
