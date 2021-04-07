@@ -70,13 +70,13 @@ class SiteController extends Controller
         ];
     }
 
-    public function beforeAction($action) 
-    {
-        if ($action->id == 'form-consult')
-            $this->enableCsrfValidation = false;
+    // public function beforeAction($action) 
+    // {
+    //     if ($action->id == 'form-consult')
+    //         $this->enableCsrfValidation = false;
 
-        return parent::beforeAction($action);
-    }
+    //     return parent::beforeAction($action);
+    // }
 
     /**
      * Displays homepage.
@@ -152,8 +152,8 @@ class SiteController extends Controller
 
     public function actionFormConsult()
     {
-        if (Yii::$app->request->isAjax)
-            return 99999;
+        // if (Yii::$app->request->isAjax)
+        //     return 99999;
 
         $model = new ConsultForm();
 
@@ -166,8 +166,8 @@ class SiteController extends Controller
         } 
         
         // else return null;
-        // else return json_encode($model->errors);
-        return json_encode(Yii::$app->request->post());
+        else return json_encode($model->errors);
+        // return json_encode(Yii::$app->request->post());
     }
 
 
