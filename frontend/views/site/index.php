@@ -68,7 +68,7 @@
                 <div class="block1-label1">Digital Asset Management</div>
                 <div class="block1-label2">Промышленный хостинг компьютерного<br/>оборудования и разработка цифровых решений<br/>для вашего бизнеса</div>
                 <div class="block1-btn">
-                    <button class="btn1 btn btn-primary1 btn-right popupbutton1" href="#popupform_text1">Подробнее</button>
+                    <!-- <button class="btn1 btn btn-primary1 btn-right popupbutton1" href="#popupform_text1">Подробнее</button> -->
                     <button class="btn2 btn btn-primary2 popupbutton1" href="#popupform1">Получить консультацию</button>
                 </div>
                 
