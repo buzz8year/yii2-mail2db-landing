@@ -1,6 +1,6 @@
 <?php
 return [
-    'adminEmail' => 'dam@icrypto.world',
+    'adminEmail' => 'info@icrypto.world',
     'supportEmail' => 'support@example.com',
     'senderEmail' => 'nobody@icrypto.world',
     'senderName' => 'Example.com mailer',
