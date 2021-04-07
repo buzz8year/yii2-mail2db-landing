@@ -144,7 +144,9 @@ class SiteController extends Controller
 
     public function actionFormConsult()
     {
-        // return 5555555;
+        if (Yii::$app->request->isAjax)
+            return 99999;
+        
         $model = new ConsultForm();
 
         if ($model->load(Yii::$app->request->post()) && $model->validate()) 
