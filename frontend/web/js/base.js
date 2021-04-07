@@ -104,7 +104,8 @@ $(document).ready(function(){
 				contentType: 'application/json',
 				// dataType: 'json',
 				data: {
-					ConsultForm: {name: name, phone: phone, body: body}
+					ConsultForm: {name: name, phone: phone, body: body},
+					_csrf: yii.getCsrfToken()
 				},
 				error: function(data){
 					console.log(data);
