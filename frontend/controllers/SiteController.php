@@ -72,9 +72,9 @@ class SiteController extends Controller
 
     public function beforeAction($action) 
     {
-        if ($action->id !== 'form-consult')
+        if ($action->id == 'form-consult')
             $this->enableCsrfValidation = false;
-        
+
         return parent::beforeAction($action);
     }
 
