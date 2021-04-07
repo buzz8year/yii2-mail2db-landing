@@ -376,43 +376,43 @@
     </div>
 </div>
 
-<div class="block10" id="block10">
+<!-- <div class="block10 hidden" id="block10">
     <div class="container-fluid container-fluid1">
-    <div class="row">
-        <div class="col-lg-5 col-md-4 col-sm-12 col-xs-12">
-            <div class="block10-label1">ВОПРОСЫ И<br/>ОТВЕТЫ</div>  
-        </div>
-        <div class="col-lg-7 col-md-8 col-sm-12 col-xs-12">
-            
-            <div class="box-quest">
-            
-                <div class="box-quest-vopros">
-                    <div class="box-quest-vopros-label">КАК ПОЛУЧИТЬ место в дата-центре?</div>
-                    <div class="box-quest-vopros-desc">Отправить заявку, обговорит все нюансы с менеджером, выбрать удобное место. </div>           
-                </div>
+        <div class="row">
+            <div class="col-lg-5 col-md-4 col-sm-12 col-xs-12">
+                <div class="block10-label1">ВОПРОСЫ И<br/>ОТВЕТЫ</div>  
+            </div>
+            <div class="col-lg-7 col-md-8 col-sm-12 col-xs-12">
                 
-                <div class="box-quest-vopros">
-                    <div class="box-quest-vopros-label">КАК я смогу пользоваться местом в дата-центре?</div>
-                    <div class="box-quest-vopros-desc">Текст</div>          
-                </div>              
+                <div class="box-quest">
                 
-                <div class="box-quest-vopros">
-                    <div class="box-quest-vopros-label">Доступность дата-центра?</div>
-                    <div class="box-quest-vopros-desc">Текст</div>          
-                </div>              
-                
-                <div class="box-quest-vopros">
-                    <div class="box-quest-vopros-label">УСЛОВИЯ Долгосрочной аренды</div>
-                    <div class="box-quest-vopros-desc">Текст</div>          
+                    <div class="box-quest-vopros">
+                        <div class="box-quest-vopros-label">КАК ПОЛУЧИТЬ место в дата-центре?</div>
+                        <div class="box-quest-vopros-desc">Отправить заявку, обговорит все нюансы с менеджером, выбрать удобное место. </div>           
+                    </div>
+                    
+                    <div class="box-quest-vopros">
+                        <div class="box-quest-vopros-label">КАК я смогу пользоваться местом в дата-центре?</div>
+                        <div class="box-quest-vopros-desc">Текст</div>          
+                    </div>              
+                    
+                    <div class="box-quest-vopros">
+                        <div class="box-quest-vopros-label">Доступность дата-центра?</div>
+                        <div class="box-quest-vopros-desc">Текст</div>          
+                    </div>              
+                    
+                    <div class="box-quest-vopros">
+                        <div class="box-quest-vopros-label">УСЛОВИЯ Долгосрочной аренды</div>
+                        <div class="box-quest-vopros-desc">Текст</div>          
+                    </div>
+                    
                 </div>
                 
             </div>
-            
         </div>
+        <div style="height:100px;"></div>
     </div>
-    <div style="height:100px;"></div>
-    </div>
-</div>
+</div> -->
 
 <!-- <div class="block11 hidden" id="block11">
     <div class="container-fluid container-fluid1">
