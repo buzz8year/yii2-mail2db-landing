@@ -114,13 +114,21 @@ input, button, img, textarea {outline:none !important;}
 .box-menu1 li a {color:#FFF;}
 .box-menu1 li {margin-bottom:10px;}
 
-.popupform1 {padding:0px !important; width:100%; max-width:500px;}
+.popupform1 .form-control {
+    font-size: 18px;
+    padding: 20px 15px;
+}
+
+.popupform1 {
+    padding:0px !important; width:100%; max-width:500px;
+    border-radius: 20px;
+}
 .popupform2 {padding:0px !important; width:100%; max-width:1100px;}
 .feedback_form_lbl {background:#0079c4;}
 .feedback_form_lbl h2 {padding:0px; margin:0px; font-size:22px; color:#FFF !important;}
 .feedback_form_lbl .feedback_form_txt {color:#FFF; font-size:13px; margin-top:10px;}
-.feedback_form_lbl_wr {padding:20px;}
-.feedback_form_wr {padding:20px;}
+.feedback_form_lbl_wr {padding:40px;}
+.feedback_form_wr {padding:40px;}
 .form-group-desc {font-size:11px; line-height:12px;}
 .form-group-desc1 {font-size:11px; line-height:12px; color:red; text-transform:italic; margin-top:-5px; margin-bottom:7px;}
 .end1 {display:none; text-align:center; margin-top:20px;}

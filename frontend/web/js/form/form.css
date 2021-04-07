@@ -8,12 +8,12 @@
 }
 .popupform h2 {
     color: #353535;
-    font: 1.714em/1em 'Trebuchet MS';
+    /*font: 1.714em/1em 'Trebuchet MS';*/
     margin-bottom: 8px;
 }
 .popupform .comment {
     color: #717171;
-    font: 0.928em 'Trebuchet MS';
+    /*font: 0.928em 'Trebuchet MS';*/
     margin-bottom: 3px;
 }
 .popupform label {
