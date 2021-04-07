@@ -180,7 +180,7 @@
         
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">           
-                <div class="block5-label1">BIG DATA— ЭТО НЕФТЬ НАШЕГО ВРЕМЕНИ</div>         
+                <div class="block5-label1">BIG DATA — НЕФТЬ НАШЕГО ВРЕМЕНИ</div>         
             </div>
         </div>
         
@@ -254,8 +254,8 @@
             <div class="logo1"><img src="images/logo1.png"></div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="block7-label1">Digital Asset Management -</div>
-            <div class="block7-label2">один из крупнейших дата-центров в Восточной Сибири с мощностью свыше 5 МВт. Мы занимаемся промышленным хостингом компьютерного оборудования и разработкой IT решений для управления компьютерными сетями.</div>
+            <div class="block7-label1">Digital Asset Management</div>
+            <div class="block7-label2">— один из крупнейших дата-центров в Восточной Сибири с мощностью свыше 5 МВт. Мы занимаемся промышленным хостингом компьютерного оборудования и разработкой IT решений для управления компьютерными сетями.</div>
             <div style="clear:both;"></div>
         </div>      
     </div>
@@ -266,8 +266,8 @@
     <div class="container-fluid container-fluid1">
     <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-            <div class="block8-label1">Мы предлагаем -</div>
-            <div class="block8-label2">Хостинг компьютерного оборудования в дата-центрах</div>
+            <div class="block8-label1">Мы предлагаем</div>
+            <div class="block8-label2">— Хостинг компьютерного оборудования в дата-центрах</div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
             
@@ -452,8 +452,8 @@
                         
                         <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
                         
-                            <div class="box-forma-label1">ОСТАЛИСЬ ВОПРОСЫ</div>    
-                            <div class="box-forma-label2">оставьте ваши контактные данные и мы перезвоним вам в ближайшее время</div>   
+                            <div class="box-forma-label1">ОСТАЛИСЬ ВОПРОСЫ?</div>    
+                            <div class="box-forma-label2">Оставьте ваши контактные данные и мы перезвоним вам в ближайшее время</div>   
                                 
                             <div class="box-forma1">
                                 <div class="box-start1 start1">    
@@ -496,18 +496,7 @@
     <div class="container-fluid container-fluid2">
         <div class="row">
 
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            
-                <div class="box-contacts">
-                    <img class="box-plus-img" src="images/c1.png">
-                    <div class="box-contacts1">
-                        <div class="box-contacts-label1">Адрес:</div>
-                        <div class="box-contacts-label2" style="max-width: 280px; font-size: 23px">Build. A2, Dubai Digital Park, Dubai Silicon Oasis, Dubai, United Arab Emirates</div>                   
-                    </div>
-                    <div style="clear:both;"></div>
-                </div>
-                
-            </div>          
+      
             
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             
@@ -521,6 +510,10 @@
                 </div>
                 
             </div>
+
+
+ 
+
             
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             
@@ -533,7 +526,21 @@
                     <div style="clear:both;"></div>
                 </div>
                 
-            </div>          
+            </div>        
+
+
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            
+                <div class="box-contacts">
+                    <img class="box-plus-img" src="images/c1.png">
+                    <div class="box-contacts1">
+                        <div class="box-contacts-label1">Адрес:</div>
+                        <div class="box-contacts-label2" style="max-width: 280px; font-size: 23px">Build. A2, Dubai Digital Park, Dubai Silicon Oasis, Dubai, United Arab Emirates</div>                   
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+                
+            </div>     
             
         </div>
     </div>
