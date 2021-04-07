@@ -9,5 +9,10 @@ return [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
+        'assetManager' => [
+            'appendTimestamp' => true,
+            'forceCopy' => true,
+            // 'linkAssets' => false,
+        ],
     ],
 ];
