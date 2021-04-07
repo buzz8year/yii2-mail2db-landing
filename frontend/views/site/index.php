@@ -13,12 +13,12 @@
         <div style="height:20px;"></div>
 
         <ul class="box-menu1">
-            <li><a href="#block3">Преимущества</a></li>
-            <li><a href="#">Оборудование</a></li>
-            <li><a href="#">Гарантии</a></li>
-            <li><a href="#">Услуги</a></li>
-            <li><a href="#">Кейсы</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li><a href="#advantages">Преимущества</a></li>
+            <li><a href="#hardware">Оборудование</a></li>
+            <li><a href="#guarantee">Гарантии</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#cases">Кейсы</a></li>
+            <li><a href="#сontacts">Контакты</a></li>
         </ul>  
         
         <a class="btn-lang1" href="/en/">EN</a>     
@@ -39,12 +39,12 @@
 
                 <div class="menu">
                     <ul>
-                        <li><a href="#block3">Преимущества</a></li> 
-                        <li><a href="#">Оборудование</a></li>   
-                        <li><a href="#">Гарантии</a></li>   
-                        <li><a href="#">Услуги</a></li> 
-                        <li><a href="#">Кейсы</a></li>  
-                        <li><a href="#">Контакты</a></li>   
+                        <li><a href="#advantages">Преимущества</a></li> 
+                        <li><a href="#hardware">Оборудование</a></li>   
+                        <li><a href="#guarantee">Гарантии</a></li>   
+                        <li><a href="#services">Услуги</a></li> 
+                        <li><a href="#cases">Кейсы</a></li>  
+                        <li><a href="#сontacts">Контакты</a></li>   
                     </ul>
                 </div>
                 
@@ -154,7 +154,7 @@
     </div>
 </div> -->
 
-<div class="container-fluid container-fluid1">
+<div class="container-fluid container-fluid1" id="advantages">
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">   
             <div class="block4-label1">Наши<br/>преимущества</div>
@@ -162,7 +162,9 @@
     </div>
 </div>
 
-<div class="block4" id="block4">
+<div class="block4">
+
+    <span class="orbit"></span>
 
     <div class="block4-txt block4-txt1">Опыт успешной деятельности в IT сфере с 2017 года и долгосрочные налаженные контакты с партнерами</div>
     <div class="block4-txt block4-txt2">Мы круглосуточно осуществляем мониторинг всех текущих процессов</div>
@@ -173,35 +175,35 @@
     <div class="block4-txt block4-txt7">Оптимальная локация дата-центра в регионах с холодным  климатом, чтобы обеспечить идеальную температуру помещений для хостинга и минимизировать расходы на электроэнергию за счет естественного охлаждения оборудования</div>
 </div>
 
-<div class="block5" id="block5">
-<div class="container-fluid container-fluid1">
-    
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">           
-            <div class="block5-label1">BIG DATA— ЭТО НЕФТЬ НАШЕГО ВРЕМЕНИ</div>         
+<div class="block5" id="cases">
+    <div class="container-fluid container-fluid1">
+        
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">           
+                <div class="block5-label1">BIG DATA— ЭТО НЕФТЬ НАШЕГО ВРЕМЕНИ</div>         
+            </div>
         </div>
+        
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">           
+                <div class="block5-label2">ЦОД может быть предназначен как для использования одним предприятием, так и являться  многопользовательским.  Многопользовательский ЦОД предоставляет широкий спектр услуг, среди которых business continuity & disaster recovery (непрерывность бизнеса), хостинг, аренда сервера, размещение сервера и т.д. Обращение к услугам многопользовательского ЦОД наиболее целесообразно для компаний среднего и малого бизнеса, т.к. позволяет избежать капитальных затрат на модернизацию ИТ-инфрастурктуры и получить высококачественный сервис и гарантию надежности.</div>           
+            </div>
+        </div>
+        <div style="height:90px;"></div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">         
+                <a href="https://www.youtube.com/watch?v=bAyrObl7TYE" class="btn-video popupbutton1">
+                    <div class="btn-video-play"><img src="images/play.png"></div>
+                </a>            
+            </div>      
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">         
+                <div class="block5-label3">Где YouTube хранит видео, а Instagram – фотографии, сколько это весит и во сколько обходится компаниям? Кто задумывается о том, где конкретно хранятся и обрабатываются эти данные?<br/><br/>Сейчас в мире около 50 млрд подключенных к интернету устройств. Каждый житель Земли генерирует 1,7 Мб информации в секунду и эти показатели растут с каждым днем. 30% всех данных хранится и обрабатывается в облаке.<br/><br/>Сегодня развитие технологий идет рука об руку с ростом объема данных. И чем дальше, тем больше их будет. Речь идет о востребованных данных о поведении пользователей, Big Data, искусственном интеллекте.</div>          
+            </div>
+        </div>  
     </div>
-    
-    <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">           
-            <div class="block5-label2">ЦОД может быть предназначен как для использования одним предприятием, так и являться  многопользовательским.  Многопользовательский ЦОД предоставляет широкий спектр услуг, среди которых business continuity & disaster recovery (непрерывность бизнеса), хостинг, аренда сервера, размещение сервера и т.д. Обращение к услугам многопользовательского ЦОД наиболее целесообразно для компаний среднего и малого бизнеса, т.к. позволяет избежать капитальных затрат на модернизацию ИТ-инфрастурктуры и получить высококачественный сервис и гарантию надежности.</div>           
-        </div>
-    </div>
-    <div style="height:90px;"></div>
-    <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">         
-            <a href="https://www.youtube.com/watch?v=bAyrObl7TYE" class="btn-video popupbutton1">
-                <div class="btn-video-play"><img src="images/play.png"></div>
-            </a>            
-        </div>      
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">         
-            <div class="block5-label3">Где YouTube хранит видео, а Instagram – фотографии, сколько это весит и во сколько обходится компаниям? Кто задумывается о том, где конкретно хранятся и обрабатываются эти данные?<br/><br/>Сейчас в мире около 50 млрд подключенных к интернету устройств. Каждый житель Земли генерирует 1,7 Мб информации в секунду и эти показатели растут с каждым днем. 30% всех данных хранится и обрабатывается в облаке.<br/><br/>Сегодня развитие технологий идет рука об руку с ростом объема данных. И чем дальше, тем больше их будет. Речь идет о востребованных данных о поведении пользователей, Big Data, искусственном интеллекте.</div>          
-        </div>
-    </div>  
-</div>
 </div>
 
-<div class="block6" id="block6">
+<div class="block6" id="hardware">
     <div class="container-fluid container-fluid1">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> 
@@ -245,7 +247,7 @@
     <div style="height:40px;"></div>
 </div>
 
-<div class="block7" id="block7">
+<div class="block7" id="services">
     <div class="container-fluid container-fluid1">
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -260,7 +262,7 @@
     </div>
 </div>
 
-<div class="block8" id="block8">
+<div class="block8">
     <div class="container-fluid container-fluid1">
     <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
@@ -289,7 +291,12 @@
             
             <div style="clear:both;"></div>
             
-            <div class="box-centr"><div class="box-centr1"><img src="images/circle.png"></div></div>
+            <div class="box-centr">
+                <div class="box-centr1">
+                    <!-- <img src="images/circle.png"> -->
+                    <img src="images/pie2.svg" style="width: 370px">
+                </div>
+            </div>
             
             <div style="clear:both;"></div>
             
@@ -319,7 +326,7 @@
     </div>
 </div>
 
-<div class="block9" id="block9">
+<div class="block9" id="guarantee">
     <div class="container-fluid container-fluid1">
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -331,42 +338,42 @@
 
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">      
             <div class="box-plus">
-                <div class="box-plus-img1"></div>
+                <div class="box-plus-img1 box-plus-img"></div>
                 <div class="box-plus-label">Фотофиксация всех этапов<br/>покупки и установки</div>
             </div>      
         </div>
             
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  
             <div class="box-plus">
-                <div class="box-plus-img2"></div>
+                <div class="box-plus-img2 box-plus-img"></div>
                 <div class="box-plus-label">Индивидуальный серийный<br/>номер, подпись полки именем<br/>владельца</div>
             </div>      
         </div>      
         
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  
             <div class="box-plus">
-                <div class="box-plus-img3"></div>
+                <div class="box-plus-img3 box-plus-img"></div>
                 <div class="box-plus-label">Видеонаблюдение, трансляция<br/>на смартфон владельца</div>
             </div>      
         </div>
         
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">      
             <div class="box-plus">
-                <div class="box-plus-img4"></div>
+                <div class="box-plus-img4 box-plus-img"></div>
                 <div class="box-plus-label">Всё оформляется в соответствии<br/>с законодательством РФ</div>
             </div>      
         </div>
             
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  
             <div class="box-plus">
-                <div class="box-plus-img5"></div>
+                <div class="box-plus-img5 box-plus-img"></div>
                 <div class="box-plus-label">Мгновенный доступ к онлайн<br/>отчётности. Онлайн мониторинг</div>
             </div>      
         </div>      
         
         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  
             <div class="box-plus">
-                <div class="box-plus-img6"></div>
+                <div class="box-plus-img6 box-plus-img"></div>
                 <div class="box-plus-label">Реальная или виртуальная<br/>экскурсия по первому<br/>требованию</div>
             </div>      
         </div>
@@ -471,7 +478,7 @@
                             <a class="box-map" href="#">                            
                                 <div class="box-map-bg"></div>
                                 <img class="box-map-img" src="images/map.png" />
-                                <img class="box-map-link" src="images/link.png" />                         
+                                <img class="box-plus-img box-map-link" src="images/link.png" />                         
                             </a>
                             
                         </div>
@@ -485,14 +492,14 @@
     </div>  
 </div>  
 
-<div class="block13" id="block13">
+<div class="block13" id="сontacts">
     <div class="container-fluid container-fluid2">
         <div class="row">
 
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             
                 <div class="box-contacts">
-                    <img src="images/c1.png">
+                    <img class="box-plus-img" src="images/c1.png">
                     <div class="box-contacts1">
                         <div class="box-contacts-label1">Адрес:</div>
                         <div class="box-contacts-label2" style="max-width: 280px; font-size: 23px">Build. A2, Dubai Digital Park, Dubai Silicon Oasis, Dubai, United Arab Emirates</div>                   
@@ -505,7 +512,7 @@
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             
                 <div class="box-contacts">
-                    <img src="images/c2.png">
+                    <img class="box-plus-img" src="images/c2.png">
                     <div class="box-contacts1">
                         <div class="box-contacts-label1">Почта:</div>
                         <div class="box-contacts-label2" style="max-width: 280px; font-size: 23px">damfzco@gmail.com</div>                    
@@ -518,7 +525,7 @@
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             
                 <div class="box-contacts box-contacts-end">
-                    <img src="images/c3.png">
+                    <img class="box-plus-img" src="images/c3.png">
                     <div class="box-contacts1">
                         <div class="box-contacts-label1">Телефон:</div>
                         <div class="box-contacts-label2" style="max-width: 280px; font-size: 23px">+971 585 258 333</div>                  
