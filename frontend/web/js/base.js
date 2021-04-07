@@ -101,6 +101,7 @@ $(document).ready(function(){
 			$.ajax({
 				type: 'post',
 				url: 'site/form-consult',
+				contentType: 'application/json',
 				dataType: 'json',
 				data: {
 					ConsultForm: {name: name, phone: phone, body: body}
