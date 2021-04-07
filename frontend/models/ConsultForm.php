@@ -27,7 +27,7 @@ class ConsultForm extends Model
     public function sendEmail()
     {
         return Yii::$app->mailer->compose()
-            ->setTo('dam@icrypto.world')
+            ->setTo('info@icrypto.world')
             ->setFrom([Yii::$app->params['senderEmail'] => Yii::$app->params['senderName']])
             ->setSubject($this->name . ' ' . $this->phone . ' asks for consult')
             ->setTextBody($this->body)
