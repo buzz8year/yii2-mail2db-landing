@@ -144,7 +144,6 @@ class SiteController extends Controller
 
     public function actionFormConsult()
     {
-        $this->enableCsrfValidation = false;
         $model = new ConsultForm();
 
         if ($model->load(Yii::$app->request->post()) && $model->validate()) 
@@ -157,7 +156,7 @@ class SiteController extends Controller
         
         // else return null;
         // else return json_encode($model->errors);
-        return json_encode(Yii::$app->request->post());
+        // return json_encode(Yii::$app->request->post());
     }
 
 
