@@ -270,7 +270,7 @@
         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
             
             <div class="box-part1">
-                <div class="box-circle1">
+                <div class="box-circle1 box-circle">
                     <div class="box-circle1-wr">
                         <div class="box-circle1-label1">Разработка программного обеспечения и IT решений для Вашего бизнеса</div>                   
                     </div>
@@ -279,7 +279,7 @@
             </div>
             
             <div class="box-part2">
-                <div class="box-circle2">
+                <div class="box-circle2 box-circle">
                     <div class="box-circle2-wr">
                         <div class="box-circle2-label1">Услуги облачных решений и аренды вычислительных мощностей для вашего бизнеса</div>                  
                     </div>
@@ -294,7 +294,7 @@
             <div style="clear:both;"></div>
             
             <div class="box-part1">
-                <div class="box-circle3">
+                <div class="box-circle3 box-circle">
                     <div class="box-circle3-wr">
                         <div class="box-circle3-label1">Поставка и хостинг компьютерного оборудования в дата-центрах</div>                   
                     </div>
@@ -303,7 +303,7 @@
             </div>
             
             <div class="box-part2">
-                <div class="box-circle4">
+                <div class="box-circle4 box-circle">
                     <div class="box-circle4-wr">
                         <div class="box-circle4-label1">Консалтинговые услуги в сфере информационных технологий</div>                   
                     </div>
@@ -488,6 +488,7 @@
 <div class="block13" id="block13">
     <div class="container-fluid container-fluid2">
         <div class="row">
+
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             
                 <div class="box-contacts">
@@ -561,7 +562,7 @@
     </div>  
 </div>  --> 
 
-<div class="box-footer">
+<!-- <div class="box-footer hidden">
     <div class="container-fluid container-fluid1">
         <div class="row">
             
@@ -627,4 +628,4 @@
 
     </div>
     
-</div>
+</div> -->
