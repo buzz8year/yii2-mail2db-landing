@@ -99,8 +99,9 @@ $(document).ready(function(){
 			
 		if (err) {
 			$.ajax({
-				type: "POST",
-				url: "site/form-consult",
+				type: 'post',
+				url: 'site/form-consult',
+				dataType: 'json',
 				data: {
 					ConsultForm: {name: name, phone: phone, body: body}
 				},
@@ -109,13 +110,14 @@ $(document).ready(function(){
 					parent.find(".msg-error").removeClass('hidden');
 				},
 				success: function(data){	
+					console.log(333333333);
 					console.log(data);
 					parent.find(".end1").css("display", "block");
 				}
 			});
 
 			parent.find(".start1").css("display", "none");	
-		
+
 			parent.find("input[name=consult-name]").val("");
 			parent.find("input[name=consult-phone]").val("");
 			parent.find("textarea[name=consult-body]").val("");

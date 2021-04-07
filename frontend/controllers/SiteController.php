@@ -144,8 +144,7 @@ class SiteController extends Controller
 
     public function actionFormConsult()
     {
-        Yii::$app->session->setFlash('error', 'There was an error sending your message.');
-        
+        return 5555555;
         $model = new ConsultForm();
 
         if ($model->load(Yii::$app->request->post()) && $model->validate()) 
