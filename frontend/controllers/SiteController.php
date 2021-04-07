@@ -70,6 +70,14 @@ class SiteController extends Controller
         ];
     }
 
+    public function beforeAction($action) 
+    {
+        if ($action->id !== 'form-consult')
+            $this->enableCsrfValidation = false;
+        
+        return parent::beforeAction($action);
+    }
+
     /**
      * Displays homepage.
      *
@@ -146,7 +154,7 @@ class SiteController extends Controller
     {
         if (Yii::$app->request->isAjax)
             return 99999;
-        
+
         $model = new ConsultForm();
 
         if ($model->load(Yii::$app->request->post()) && $model->validate()) 
