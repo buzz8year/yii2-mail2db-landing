@@ -11,7 +11,7 @@ return [
         ],
         'assetManager' => [
             'appendTimestamp' => true,
-            'forceCopy' => true,
+            'forceCopy' => false,
             // 'linkAssets' => false,
         ],
     ],
