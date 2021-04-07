@@ -100,7 +100,7 @@ $(document).ready(function(){
 		if (err) {
 			$.ajax({
 				type: 'post',
-				url: 'site/form-consult',
+				url: '/site/form-consult',
 				contentType: 'application/json',
 				// dataType: 'json',
 				data: {
