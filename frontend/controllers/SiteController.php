@@ -144,6 +144,7 @@ class SiteController extends Controller
 
     public function actionFormConsult()
     {
+        $this->enableCsrfValidation = false;
         $model = new ConsultForm();
 
         if ($model->load(Yii::$app->request->post()) && $model->validate()) 
