@@ -297,7 +297,7 @@
             <div class="box-part1">
                 <div class="box-circle3">
                     <div class="box-circle3-wr">
-                        <div class="box-circle3-label1">Поставка компьютерного оборудования</div>                   
+                        <div class="box-circle3-label1">Поставка и хостинг компьютерного оборудования в дата-центрах</div>                   
                     </div>
                 </div>
                 <div style="clear:both;"></div>             
