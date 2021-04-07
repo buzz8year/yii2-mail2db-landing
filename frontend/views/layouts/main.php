@@ -11,10 +11,15 @@ use frontend\assets\AppAsset;
 use common\widgets\Alert;
 
 AppAsset::register($this);
+
 ?>
+
 <?php $this->beginPage() ?>
+
 <!DOCTYPE html>
+
 <html lang="<?= Yii::$app->language ?>">
+
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,69 +30,28 @@ AppAsset::register($this);
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     
-    <link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
-
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin,cyrillic">
-    
+    <!-- <link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"> -->
+    <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin,cyrillic"> -->
 
 </head>
+
 <body>
+
 <?php $this->beginBody() ?>
 
 <div class="wrap">
-    <?php
-    // NavBar::begin([
-    //     'brandLabel' => Yii::$app->name,
-    //     'brandUrl' => Yii::$app->homeUrl,
-    //     'options' => [
-    //         'class' => 'navbar-inverse navbar-fixed-top',
-    //     ],
-    // ]);
-    // $menuItems = [
-    //     ['label' => 'Home', 'url' => ['/site/index']],
-    //     ['label' => 'About', 'url' => ['/site/about']],
-    //     ['label' => 'Contact', 'url' => ['/site/contact']],
-    // ];
-    // if (Yii::$app->user->isGuest) {
-    //     $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
-    //     $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
-    // } else {
-    //     $menuItems[] = '<li>'
-    //         . Html::beginForm(['/site/logout'], 'post')
-    //         . Html::submitButton(
-    //             'Logout (' . Yii::$app->user->identity->username . ')',
-    //             ['class' => 'btn btn-link logout']
-    //         )
-    //         . Html::endForm()
-    //         . '</li>';
-    // }
-    // echo Nav::widget([
-    //     'options' => ['class' => 'navbar-nav navbar-right'],
-    //     'items' => $menuItems,
-    // ]);
-    // NavBar::end();
-    ?>
 
-    <!-- <div class="container">
-        <?php //echo Breadcrumbs::widget(['links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [] ]) ?>
-        <?php //echo Alert::widget() ?>
-        <?php //echo $content ?>
-    </div> -->
+    <?php //echo Breadcrumbs::widget(['links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [] ]) ?>
 
     <?php echo Alert::widget() ?>
     <?= $content ?>
 
 </div>
 
-<!-- <footer class="footer">
-    <div class="container">
-        <p class="pull-left">&copy; <?= Html::encode(Yii::$app->name) ?> <?= date('Y') ?></p>
-
-        <p class="pull-right"><?= Yii::powered() ?></p>
-    </div>
-</footer> -->
-
 <?php $this->endBody() ?>
+
 </body>
+
 </html>
+
 <?php $this->endPage() ?>
