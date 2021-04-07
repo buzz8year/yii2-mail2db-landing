@@ -36,6 +36,9 @@
             <div class="end1">
                 <div>Спасибо, ваше сообщение принято.</div>
             </div>
+            <div class="msg-error hidden">
+                <div>Ошибка.</div>
+            </div>
         </div>
     </div>
 </div>

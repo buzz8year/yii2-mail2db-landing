@@ -60,7 +60,7 @@ $(document).ready(function(){
 	
 	$('.popupbutton1').fancybox({
         'padding': 0,
-        'overlayOpacity': 0.87,
+        'overlayOpacity': 0.9,
         'overlayColor': '#fff',
         'transitionIn': 'none',
         'transitionOut': 'none',
@@ -100,30 +100,25 @@ $(document).ready(function(){
 		if (err) {
 			$.ajax({
 				type: "POST",
-				// url: "/email/post1.php",
-				// data: "pole1="+pole1+"&pole2="+pole2+"&pole3="+pole3,
-				url: "index.php?r=site/form-consult",
+				url: "site/form-consult",
 				data: {
 					ConsultForm: {name: name, phone: phone, body: body}
 				},
 				error: function(data){
 					console.log(data);
+					parent.find(".msg-error").removeClass('hidden');
 				},
 				success: function(data){	
 					console.log(data);
+					parent.find(".end1").css("display", "block");
 				}
 			});
+
+			parent.find(".start1").css("display", "none");	
 		
-			// parent.find("input[name=pole1]").val("");
-			// parent.find("input[name=pole2]").val("");
-			// parent.find("textarea[name=pole3]").val("");
 			parent.find("input[name=consult-name]").val("");
 			parent.find("input[name=consult-phone]").val("");
 			parent.find("textarea[name=consult-body]").val("");
-		
-			parent.find(".start1").css("display", "none");	
-			parent.find(".end1").css("display", "block");	
-
 		}
 	});
 	
@@ -172,43 +167,43 @@ $(document).ready(function(){
 	// });	
 
 
-	$(".setPost3").click(function(event){
-		event.preventDefault();
+	// $(".setPost3").click(function(event){
+	// 	event.preventDefault();
 		
-		var parent = $(this).parent().parent().parent().parent();
+	// 	var parent = $(this).parent().parent().parent().parent();
 		
-		parent.find(".required").css("border", "2px solid #c2c3c3");
+	// 	parent.find(".required").css("border", "2px solid #c2c3c3");
 		
-		var pole1 = parent.find("input[name=pole1]").val().trim();
+	// 	var pole1 = parent.find("input[name=pole1]").val().trim();
 			
-		var err = 1;
+	// 	var err = 1;
 		
-		parent.find(".required").each(function(){
+	// 	parent.find(".required").each(function(){
 
-			if ($(this).find(".inppole").val().trim() == '') {
-				err = 0;
-				$(this).css("border", "2px solid red");
-			}
-		});
+	// 		if ($(this).find(".inppole").val().trim() == '') {
+	// 			err = 0;
+	// 			$(this).css("border", "2px solid red");
+	// 		}
+	// 	});
 			
-		if (err) {
+	// 	if (err) {
 			
-			$.ajax({
-				type: "POST",
-				url: "/email/post3.php",
-				data: "pole1="+pole1,
-				success: function(msg){	
+	// 		$.ajax({
+	// 			type: "POST",
+	// 			url: "/email/post3.php",
+	// 			data: "pole1="+pole1,
+	// 			success: function(msg){	
 		
-				}
-			});
+	// 			}
+	// 		});
 		
-			parent.find("input[name=pole1]").val("");
+	// 		parent.find("input[name=pole1]").val("");
 		
-			parent.find(".box-mail-start1").css("display", "none");	
-			parent.find(".box-mail-end1").css("display", "block");	
+	// 		parent.find(".box-mail-start1").css("display", "none");	
+	// 		parent.find(".box-mail-end1").css("display", "block");	
 		
-		}
-	});	
+	// 	}
+	// });	
 	
 	
 	$(".post-partner").click(function(event){
@@ -221,36 +216,38 @@ $(document).ready(function(){
 		var name = parent.find("input[name=partner-name]").val().trim();
 		var phone = parent.find("input[name=partner-phone]").val().trim();
 		
-		var err = 1;
+		var filled = 1;
 		
 		parent.find(".required").each(function(){
-			if ($(this).val().trim() == '') {
-				err = 0;
+			if ($(this).val().trim() == '') 
+			{
+				filled = 0;
 				$(this).css("border", "1px solid red");
 			}
 		});
 			
-		if (err) {
+		if (filled) 
+		{
 			$.ajax({
 				type: "POST",
-				url: "index.php?r=site/form-partner",
+				url: "site/form-partner",
 				data: {
 					PartnerForm: { name: name, phone: phone }
 				},
 				error: function(data){	
 					console.log(data);
+					parent.find(".msg-error").removeClass('hidden');
 				},
 				success: function(data){	
 					console.log(data);
+					parent.find(".end1").css("display", "block");
 				}
 			});
-		
-			parent.find("input[name=pole1]").val("");
-			parent.find("input[name=pole2]").val("");
-		
-			parent.find(".start1").css("display", "none");	
-			parent.find(".end1").css("display", "block");	
 
+			parent.find(".start1").css("display", "none");
+		
+			parent.find("input[name=partner-name]").val("");
+			parent.find("input[name=partner-phone]").val("");
 		}
 	});	
 });
