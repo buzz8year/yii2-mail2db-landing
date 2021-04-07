@@ -179,7 +179,9 @@ input, button, img, textarea {outline:none !important;}
 .btn-video {
     display:block; 
     background-image:url("../images/video.png"); 
-    background-size:cover; 
+    background-size: 90%; 
+    background-repeat: no-repeat;
+    background-color: #fff;
     background-position:center center; 
     width:100%; max-width:700px; height:500px; border-radius:20px; 
     border:10px solid #f3f2fd; 
@@ -272,8 +274,11 @@ input, button, img, textarea {outline:none !important;}
 .box-plus-img3 {width:114px; height:115px; background-image:url("../images/icon7.png"); background-size:contain; background-position:center bottom; background-repeat:no-repeat; margin:0 auto;}
 
 .box-plus-img4 {width:114px; height:115px; background-image:url("../images/icon8.png"); background-size:contain; background-position:center bottom; background-repeat:no-repeat; margin:0 auto;}
-.box-plus-img5 {width:120px; height:115px; background-image:url("../images/icon9.png"); background-size:contain; background-position:center bottom; background-repeat:no-repeat; margin:0 auto;}
-.box-plus-img6 {width:120px; height:115px; background-image:url("../images/icon10.png"); background-size:contain; background-position:center bottom; background-repeat:no-repeat; margin:0 auto;}
+/*.box-plus-img5 {width:120px; height:115px; background-image:url("../images/icon9.png"); background-size:contain; background-position:center bottom; background-repeat:no-repeat; margin:0 auto;}*/
+.box-plus-img5 {
+    width:160px; height:115px; background-image:url("../images/dash.svg"); background-size:cover; background-position:center; background-repeat:no-repeat; margin:0 auto;
+}
+.box-plus-img6 {width:120px; height:115px; background-image:url("../images/icon10.png"); background-size:contain; background-position:center; background-repeat:no-repeat; margin:0 auto;}
 
 .box-plus-label {text-align:center; font-size:24px; line-height:30px; margin-top:30px; font-weight:300;}
 
