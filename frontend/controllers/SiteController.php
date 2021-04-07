@@ -166,8 +166,8 @@ class SiteController extends Controller
         } 
         
         // else return null;
-        else return json_encode($model->errors);
-        // return json_encode(Yii::$app->request->post());
+        // else return json_encode($model->errors);
+        return json_encode(Yii::$app->request->post());
     }
 
 
