@@ -209,35 +209,34 @@
                 <div class="block6-label2">И вычислительных мощностей</div> 
                 <div class="block6-label3">Положитесь на экспертов</div>    
                 <div class="block6-label4">В 2021 году дата-центр стремительно наращивает парк вычислительных мощностей, соответствуя всё возрастающему спросу на дата центры.<br/><br/>Открыты возможности совместных вложений в оборудование. Специалисты центра помогут сделать выбор и возьмут все заботы на себя.</div>
-                <div class="block6-btn"><button class="btn4 btn btn-primary2 popupbutton1" href="#popupform1">Получить консультацию</button></div>              
+                <div class="block6-btn" style="margin-bottom: 60px"><button class="btn4 btn btn-primary2 popupbutton1" href="#popupform1">Получить консультацию</button></div>              
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> 
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="margin-top: 110px"> 
                 
-            <div class="owl-carousel owl-carousel2">    
-                <div class="box-tovar">
-                    <div class="box-tovar-wr">
-                        <div class="box-tovar-img"><img src="images/6.png"></div>
-                        <div class="box-tovar-label1">ANTMINER S17 73TH</div>
-                        <div class="box-tovar-label2">Еще пару лет назад устройства, способные разогнаться до 53 TH/s, считались самыми продуктивными. Однако недавно ведущий производитель представил модель Bitmain Antminer s17 73th.<br/>Сообщение о запуске продаж новых ASIC взволновало целые корпорации, готовые купить тысячи устройств. Все дело в низком энергопотреблении и в выдаваемом хешрейта. Новый АСИК презентовали в конце 2019 года в Германии во время мероприятия World Digital Mining Summit.</div>
-                    
+                <div class="owl-carousel owl-carousel2">    
+
+                    <div class="box-tovar">
+                        <div class="box-tovar-wr">
+
+                            <div class="box-tovar-img" style="height: 450px; margin-top: 90px">
+                                <img src="images/server.svg">
+                            </div>
+
+                            <!-- <div class="box-tovar-label1 hidden">ANTMINER S17 73TH</div>
+                            <div class="box-tovar-label2 hidden">Еще пару лет назад устройства, способные разогнаться до 53 TH/s, считались самыми продуктивными. Однако недавно ведущий производитель представил модель Bitmain Antminer s17 73th.<br/>Сообщение о запуске продаж новых ASIC взволновало целые корпорации, готовые купить тысячи устройств. Все дело в низком энергопотреблении и в выдаваемом хешрейта. Новый АСИК презентовали в конце 2019 года в Германии во время мероприятия World Digital Mining Summit.</div> -->
+                        
+                        </div>
                     </div>
-                </div>
-                <div class="box-tovar">
-                    <div class="box-tovar-wr">
-                        <div class="box-tovar-img"><img src="images/6.png"></div>
-                        <div class="box-tovar-label1">ANTMINER S17 73TH</div>
-                        <div class="box-tovar-label2">Еще пару лет назад устройства, способные разогнаться до 53 TH/s, считались самыми продуктивными. Однако недавно ведущий производитель представил модель Bitmain Antminer s17 73th.<br/>Сообщение о запуске продаж новых ASIC взволновало целые корпорации, готовые купить тысячи устройств. Все дело в низком энергопотреблении и в выдаваемом хешрейта. Новый АСИК презентовали в конце 2019 года в Германии во время мероприятия World Digital Mining Summit.</div>
-                    
-                    </div>
-                </div>
-                <div class="box-tovar">
-                    <div class="box-tovar-wr">
-                        <div class="box-tovar-img"><img src="images/6.png"></div>
-                        <div class="box-tovar-label1">ANTMINER S17 73TH</div>
-                        <div class="box-tovar-label2">Еще пару лет назад устройства, способные разогнаться до 53 TH/s, считались самыми продуктивными. Однако недавно ведущий производитель представил модель Bitmain Antminer s17 73th.<br/>Сообщение о запуске продаж новых ASIC взволновало целые корпорации, готовые купить тысячи устройств. Все дело в низком энергопотреблении и в выдаваемом хешрейта. Новый АСИК презентовали в конце 2019 года в Германии во время мероприятия World Digital Mining Summit.</div>
-                    
-                    </div>
-                </div>
+
+                    <!-- <div class="box-tovar hidden">
+                        <div class="box-tovar-wr">
+                            <div class="box-tovar-img"><img src="images/6.png"></div>
+                            <div class="box-tovar-label1">ANTMINER S17 73TH</div>
+                            <div class="box-tovar-label2">Еще пару лет назад устройства, способные разогнаться до 53 TH/s, считались самыми продуктивными. Однако недавно ведущий производитель представил модель Bitmain Antminer s17 73th.<br/>Сообщение о запуске продаж новых ASIC взволновало целые корпорации, готовые купить тысячи устройств. Все дело в низком энергопотреблении и в выдаваемом хешрейта. Новый АСИК презентовали в конце 2019 года в Германии во время мероприятия World Digital Mining Summit.</div>
+                        </div>
+                    </div> -->
+
                 </div>
                 
             </div>
@@ -495,7 +494,7 @@
                     <img src="images/c1.png">
                     <div class="box-contacts1">
                         <div class="box-contacts-label1">Адрес:</div>
-                        <div class="box-contacts-label2" style="max-width: 280px">Build. A2, Dubai Digital Park, Dubai Silicon Oasis, Dubai, United Arab Emirates</div>                   
+                        <div class="box-contacts-label2" style="max-width: 280px; font-size: 23px">Build. A2, Dubai Digital Park, Dubai Silicon Oasis, Dubai, United Arab Emirates</div>                   
                     </div>
                     <div style="clear:both;"></div>
                 </div>
@@ -508,7 +507,7 @@
                     <img src="images/c2.png">
                     <div class="box-contacts1">
                         <div class="box-contacts-label1">Почта:</div>
-                        <div class="box-contacts-label2">damfzco@gmail.com</div>                    
+                        <div class="box-contacts-label2" style="max-width: 280px; font-size: 23px">damfzco@gmail.com</div>                    
                     </div>
                     <div style="clear:both;"></div>
                 </div>
@@ -521,7 +520,7 @@
                     <img src="images/c3.png">
                     <div class="box-contacts1">
                         <div class="box-contacts-label1">Телефон:</div>
-                        <div class="box-contacts-label2">+971 585 258 333</div>                  
+                        <div class="box-contacts-label2" style="max-width: 280px; font-size: 23px">+971 585 258 333</div>                  
                     </div>
                     <div style="clear:both;"></div>
                 </div>
