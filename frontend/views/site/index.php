@@ -4,7 +4,6 @@
 
 <?php echo $this->context->renderPartial('_form_text') ?>
 
-
 <nav id="menu">
     <div id="menuContent">      
         <div style="height:10px;"></div>
@@ -21,7 +20,8 @@
             <li><a href="#сontacts"><?= Yii::t('app', 'Контакты') ?></a></li>
         </ul>  
         
-        <a class="btn-lang1" href="/en/">EN</a>     
+        <a class="btn-lang1 navbar-lang <?= Yii::$app->language != 'en-US' ?: 'hidden' ?>" data-lang="en-US">EN</a> 
+        <a class="btn-lang1 navbar-lang <?= Yii::$app->language != 'ru-RU' ?: 'hidden' ?>" data-lang="ru-RU">RU</a> 
         <div style="height:30px;"></div>
     </div>      
 </nav>
@@ -48,11 +48,13 @@
                     </ul>
                 </div>
                 
-                <a class="btn-lang" href="/en/">EN</a>       
+                <a class="btn-lang navbar-lang <?= Yii::$app->language != 'en-US' ?: 'hidden' ?>" data-lang="en-US">EN</a> 
+                <a class="btn-lang navbar-lang <?= Yii::$app->language != 'ru-RU' ?: 'hidden' ?>" data-lang="ru-RU">RU</a>     
             </div>
             
             <div class="hidden-lg hidden-md col-sm-3 hidden-xs">
-                <a class="btn-lang" href="/en/">EN</a>             
+                <a class="btn-lang navbar-lang <?= Yii::$app->language != 'en-US' ?: 'hidden' ?>" data-lang="en-US">EN</a> 
+                <a class="btn-lang navbar-lang <?= Yii::$app->language != 'ru-RU' ?: 'hidden' ?>" data-lang="ru-RU">RU</a>             
             </div>
             
             <div class="hidden-lg hidden-md col-sm-2 col-xs-3">

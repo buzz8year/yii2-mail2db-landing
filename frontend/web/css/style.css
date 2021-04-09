@@ -21,7 +21,10 @@ input, button, img, textarea {outline:none !important;}
     background:url("../images/block1.png") top center; 
     height:878px;
 }
-.logo {display:block; width:100%; max-width:275px;}
+.logo {
+    display:block; width:100%; max-width:275px;
+    margin-left: -5px;
+}
 .logo img {width:100%;}
 
 
@@ -31,13 +34,35 @@ input, button, img, textarea {outline:none !important;}
 .menu ul li {display:inline-block; margin-left:10px; margin-right:10px;}
 .menu ul li a {color:#FFF; font-size:24px; text-transform:uppercase; font-weight:600;}
 
-.btn-lang {display:block; width:74px; height:74px; background:#FFF; border-radius:74px; font-size:28px !important; line-height:74px; text-align:center; color:#000 !important; font-family:Helvetica; font-weight:500 !important; position:absolute; top:0px; right:10px;}
+.btn-lang {
+    display:block; width:74px; 
+    height:74px; background:#FFF; 
+    border-radius:74px; 
+    font-size:24px !important; 
+    line-height:74px; 
+    text-align:center; color:#06c !important; 
+    cursor: pointer;
+    text-decoration: none!important;
+    font-weight:600 !important; 
+    position:absolute; 
+    top:-2px; right:10px;
+}
 .btn-lang1 {display:block; width:74px; height:74px; background:#FFF; border-radius:74px; font-size:28px !important; line-height:74px; text-align:center; color:#000 !important; font-family:Helvetica; font-weight:500 !important; margin-top:20px;}
 
-.block1-label1 {font-size:42px; line-height:56px; color:#FFF; font-weight:bold; margin-top:110px; margin-left:60px;}
-.block1-label2 {font-size:24px; line-height:28px; color:#FFF; margin-top:30px; margin-left:60px;}
+.block1-label1 {
+    font-size:42px; line-height:56px; color:#FFF; font-weight:bold; margin-top:110px; 
+    /*margin-left:60px;*/
+}
+.block1-label2 {
+    font-size:24px; line-height:28px; color:#FFF; margin-top:30px; 
+    max-width: 700px;
+    /*margin-left:60px;*/
+}
 
-.block1-btn {margin-left:60px; margin-top:60px;}
+.block1-btn {
+    /*margin-left:60px; */
+    margin-top:60px;
+}
 .btn-primary1 {height:56px; border-radius:56px !important; background:#FFF; font-size:22px !important; line-height:22px !important; font-weight:600; text-transform:uppercase; padding-left:50px !important; padding-right:50px !important; border:2px solid #FFF !important;}
 .btn-primary1:hover, .btn-primary1:focus {background:none;   color:#FFF !important;}
 

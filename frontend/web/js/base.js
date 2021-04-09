@@ -1,3 +1,24 @@
+$(document).on('click', '.navbar-lang', function(e){
+
+	e.stopPropagation();
+
+	lang = $(this).attr('data-lang');
+    $.ajax({
+        url: '/site/change-language',
+        method: 'get',
+        data: {to: lang},
+        success: function(data) {
+        	// console.log(data);
+            window.location.reload();
+        },
+        error: function(data) {
+            console.log(data);  
+        },
+    });
+
+});
+
+
 $(document).ready(function(){
 	
 	$(".box-quest-vopros-label").on("click", function(){
@@ -126,88 +147,6 @@ $(document).ready(function(){
 		}
 	});
 	
-
-	// $(".setPost2").click(function(event){
-	// 	event.preventDefault();
-		
-	// 	var parent = $(this).parent().parent();
-		
-	// 	parent.find(".required").css("border", "2px solid #adaeae");
-		
-	// 	var pole1 = parent.find("input[name=pole1]").val().trim();
-	// 	var pole2 = parent.find("input[name=pole2]").val().trim();
-	// 	var pole3 = parent.find("textarea[name=pole3]").val().trim();
-		
-		
-	// 	var err = 1;
-		
-	// 	parent.find(".required").each(function(){
-
-	// 		if ($(this).find(".inppole").val().trim() == '') {
-	// 			err = 0;
-	// 			$(this).css("border", "2px solid red");
-	// 		}
-	// 	});
-			
-	// 	if (err) {
-			
-	// 		$.ajax({
-	// 			type: "POST",
-	// 			url: "/email/post2.php",
-	// 			data: "pole1="+pole1+"&pole2="+pole2+"&pole3="+pole3,
-	// 			success: function(msg){	
-		
-	// 			}
-	// 		});
-		
-	// 		parent.find("input[name=pole1]").val("");
-	// 		parent.find("input[name=pole2]").val("");
-	// 		parent.find("textarea[name=pole3]").val("");
-		
-	// 		parent.find(".box-start1").css("display", "none");	
-	// 		parent.find(".box-end1").css("display", "block");	
-
-	// 	}
-	// });	
-
-
-	// $(".setPost3").click(function(event){
-	// 	event.preventDefault();
-		
-	// 	var parent = $(this).parent().parent().parent().parent();
-		
-	// 	parent.find(".required").css("border", "2px solid #c2c3c3");
-		
-	// 	var pole1 = parent.find("input[name=pole1]").val().trim();
-			
-	// 	var err = 1;
-		
-	// 	parent.find(".required").each(function(){
-
-	// 		if ($(this).find(".inppole").val().trim() == '') {
-	// 			err = 0;
-	// 			$(this).css("border", "2px solid red");
-	// 		}
-	// 	});
-			
-	// 	if (err) {
-			
-	// 		$.ajax({
-	// 			type: "POST",
-	// 			url: "/email/post3.php",
-	// 			data: "pole1="+pole1,
-	// 			success: function(msg){	
-		
-	// 			}
-	// 		});
-		
-	// 		parent.find("input[name=pole1]").val("");
-		
-	// 		parent.find(".box-mail-start1").css("display", "none");	
-	// 		parent.find(".box-mail-end1").css("display", "block");	
-		
-	// 	}
-	// });	
 	
 	
 	$(".post-partner").click(function(event){
@@ -254,4 +193,5 @@ $(document).ready(function(){
 			parent.find("input[name=partner-phone]").val("");
 		}
 	});	
+
 });

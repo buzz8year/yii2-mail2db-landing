@@ -70,13 +70,28 @@ class SiteController extends Controller
         ];
     }
 
-    // public function beforeAction($action) 
-    // {
-    //     if ($action->id == 'form-consult')
-    //         $this->enableCsrfValidation = false;
+    public function beforeAction($action) 
+    {
+        Yii::$app->language = Yii::$app->session->get('language');
 
-    //     return parent::beforeAction($action);
-    // }
+        return parent::beforeAction($action);
+    }
+
+
+    /**
+     * Displays homepage.
+     *
+     * @return mixed
+     */
+    public function actionChangeLanguage(string $to = '')
+    {
+        if ($to) Yii::$app->session->set('language', $to);
+
+        Yii::$app->language = Yii::$app->session->get('language');
+
+        return Yii::$app->language;
+    }
+
 
     /**
      * Displays homepage.
@@ -85,8 +100,6 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        // $this->layout = false;
-
         return $this->render('index');
     }
 
