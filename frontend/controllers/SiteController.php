@@ -72,7 +72,7 @@ class SiteController extends Controller
 
     public function beforeAction($action) 
     {
-        Yii::$app->language = Yii::$app->session->get('language');
+        Yii::$app->language = Yii::$app->session->get('language') ?? 'en-US';
 
         return parent::beforeAction($action);
     }
