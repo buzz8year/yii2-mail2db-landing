@@ -339,9 +339,9 @@
                                 
                             <div class="box-forma1">
                                 <div class="box-start1 start1">    
-                                    <div class="inp1 "><input type="text" class="inppole required" value=""  name="consult-name" placeholder="Имя"/></div>
-                                    <div class="inp1 "><input type="text" class="inppole required" value=""  name="consult-phone" placeholder="Телефон или Email"/></div>
-                                    <div class="inp2 "><textarea name="consult-body" class="inppole required" placeholder="Заявка или запрос на консультацию"></textarea></div>
+                                    <div class="inp1 "><input type="text" class="inppole required" value=""  name="consult-name" placeholder="<?= Yii::t('app', 'Имя') ?>"/></div>
+                                    <div class="inp1 "><input type="text" class="inppole required" value=""  name="consult-phone" placeholder="<?= Yii::t('app', 'Телефон или Email') ?>"/></div>
+                                    <div class="inp2 "><textarea name="consult-body" class="inppole required" placeholder="<?= Yii::t('app', 'Заявка или запрос на консультацию') ?>"></textarea></div>
                                     <div class="inp3"><?= Yii::t('app', 'Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Согласии на обработку персональных данных *') ?></div>
                                     
                                     <button class="btn btn-primary5 post-consult"><?= Yii::t('app', 'Отправить') ?></button>
