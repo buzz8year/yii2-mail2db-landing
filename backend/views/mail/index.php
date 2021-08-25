@@ -200,12 +200,10 @@ textarea {
 
             <div>
                 <strong class="" style="margin-right: 5px">From:</strong>
-                <span class="label label-dep label-primary" data-dep="info@icrypto.world">info</span>
-                <span class="label label-dep label-grey" data-dep="contact@icrypto.world">contact</span>
-                <span class="label label-dep label-grey" data-dep="support@icrypto.world">support</span>
-                <span class="label label-dep label-grey" data-dep="promo@icrypto.world">promo</span>
-                <span class="label label-dep label-grey" data-dep="bitgo@icrypto.world">bitgo</span>
-                <span class="label label-dep label-grey" data-dep="arabdanov@icrypto.world">arabdanov</span>
+                <span class="label label-dep label-primary" data-dep="info@damfz.co">info</span>
+                <span class="label label-dep label-grey" data-dep="contact@damfz.co">contact</span>
+                <span class="label label-dep label-grey" data-dep="support@damfz.co">support</span>
+                <span class="label label-dep label-grey" data-dep="promo@damfz.co">promo</span>
             </div><br/><br/><br/>
 
 
@@ -214,9 +212,9 @@ textarea {
                 <?= $form->field($model, 'from')->textInput([
                         'placeholder' => 'Email', 
                         'class' => 'form-control input-from', 
-                        'value' => 'info@icrypto.world',
+                        'value' => 'info@damfz.co',
                         'readonly' => true,
-                        // 'value' => strtolower(User::findIdentity(Yii::$app->user->getId())->name_first) . '@icrypto.world',
+                        // 'value' => strtolower(User::findIdentity(Yii::$app->user->getId())->name_first) . '@damfz.co',
                     ])->label(false) 
                 ?>
                 <?= $form->field($model, 'to')->textInput([
