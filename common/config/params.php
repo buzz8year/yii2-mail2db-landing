@@ -1,9 +1,9 @@
 <?php
 return [
-    'adminEmail' => 'info@icrypto.world',
-    'supportEmail' => 'support@example.com',
-    'senderEmail' => 'nobody@icrypto.world',
-    'senderName' => 'Example.com mailer',
+    'adminEmail' => 'info@damfz.co',
+    'supportEmail' => 'support@damfz.co',
+    'senderEmail' => 'nobody@damfz.co',
+    'senderName' => 'DAM FZ Company',
     'user.passwordResetTokenExpire' => 3600,
     'user.passwordMinLength' => 8,
 ];
