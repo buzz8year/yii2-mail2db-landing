@@ -74,20 +74,20 @@ class MailForm extends Model
         // EXPLAIN: ...
         $emails = is_array($this->to) ? : explode(', ', $this->to);
 
-        try
-        {
+        // try
+        // {
             $mailer = new Mailer();
             $mailer->setFrom($this->from);
             $mailer->setAttachments($this->attachments);
 
             foreach ($emails as $to)
                 $mailer->send($to, $this->subject, $this->body);
-        }
-        catch (Exception $e)
-        {
-            Yii::$app->session->setFlash('info', json_encode($e));
-            return false;
-        }
+        // }
+        // catch (Exception $e)
+        // {
+        //     Yii::$app->session->setFlash('info', json_encode($e));
+        //     return false;
+        // }
 
         return true;
     }
