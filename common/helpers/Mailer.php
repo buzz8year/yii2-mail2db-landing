@@ -23,7 +23,7 @@ class Mailer
         $this->mail->XMailer = null;
         $this->mail->CharSet = 'UTF-8';
         $this->mail->SMTPDebug = SMTP::DEBUG_OFF;
-        $this->mail->isHTML(true);
+        // $this->mail->isHTML(true);
     }
 
 
