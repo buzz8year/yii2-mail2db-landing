@@ -20,9 +20,9 @@ class Mailer
     {
         $this->mail = new PHPMailer();
 
-        // $this->mail->XMailer = null;
+        $this->mail->XMailer = null;
         $this->mail->CharSet = 'UTF-8';
-        // $this->mail->SMTPDebug = SMTP::DEBUG_OFF;
+        $this->mail->SMTPDebug = SMTP::DEBUG_OFF;
         $this->mail->isHTML(true);
     }
 
