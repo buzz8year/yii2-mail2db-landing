@@ -237,7 +237,7 @@ class SiteController extends Controller
 
         if ($model->load(Yii::$app->request->post()) && $model->validate() && $model->resetPassword()) 
         {
-            Yii::$app->session->setFlash('success', Yii::t('frontend', 'Saved successfully. You can now sign in using your new password.'));
+            Yii::$app->session->setFlash('success', Yii::t('app', 'Saved successfully. You can now sign in using your new password.'));
 
             return $this->redirect(['/login']);
             // return $this->goHome();
@@ -264,12 +264,12 @@ class SiteController extends Controller
         {
             if ($model->sendEmail()) 
             {
-                Yii::$app->session->setFlash('success', Yii::t('frontend', 'Request accepted. We\'ve sent you an email with further instructions - check your inbox.'));
+                Yii::$app->session->setFlash('success', Yii::t('app', 'Request accepted. We\'ve sent you an email with further instructions - check your inbox.'));
                 // return $this->goHome();
             } 
             else 
             {
-                Yii::$app->session->setFlash('error', Yii::t('frontend', 'Sorry, we are unable to reset password for the provided email address.'));
+                Yii::$app->session->setFlash('error', Yii::t('app', 'Sorry, we are unable to reset password for the provided email address.'));
             }
 
             return $this->refresh();
