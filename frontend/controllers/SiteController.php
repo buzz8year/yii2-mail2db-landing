@@ -250,4 +250,37 @@ class SiteController extends Controller
 
 
 
+
+        /**
+     * Requests password reset.
+     *
+     * @return mixed
+     */
+    public function actionRequestPasswordReset()
+    {
+        $model = new PasswordResetRequestForm();
+        
+        if ($model->load(Yii::$app->request->post()) && $model->validate()) 
+        {
+            if ($model->sendEmail()) 
+            {
+                Yii::$app->session->setFlash('success', Yii::t('frontend', 'Request accepted. We\'ve sent you an email with further instructions - check your inbox.'));
+                // return $this->goHome();
+            } 
+            else 
+            {
+                Yii::$app->session->setFlash('error', Yii::t('frontend', 'Sorry, we are unable to reset password for the provided email address.'));
+            }
+
+            return $this->refresh();
+        }
+
+        // return $this->refresh();
+        return $this->render('requestPasswordResetToken', [
+            'model' => $model,
+        ]);
+    }
+
+
+
 }
