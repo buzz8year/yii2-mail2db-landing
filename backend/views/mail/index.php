@@ -314,10 +314,7 @@ textarea {
         <h3>Mail Template/Sample</h3><br/>
 
         <select class="form-control select-sample pull-left" style="width: 185px">
-            <option data-sample="tfa">2FA</option>
-            <option data-sample="tfa-signin">2FA sign-in issue</option>
-            <option data-sample="marketing">Marketing</option>
-            <option data-sample="accrual">Accrual</option>
+            <option data-sample="tfa">General</option>
         </select>
 
         <span class="btn btn-link btn-sm text-muted btn-paste" style="margin: 1px 0 0 15px">paste to textarea</span>
