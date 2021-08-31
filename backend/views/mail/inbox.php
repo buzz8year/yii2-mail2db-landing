@@ -132,7 +132,7 @@ pre.pre-mail i:not(.fa) {
 }
 </style>
 
-<div class="site-contact">
+<pre class="site-contact">
 
     <h1 style="position: relative;">
         <span>Inbox</span>
@@ -141,7 +141,7 @@ pre.pre-mail i:not(.fa) {
     </h1><br/>
 
     <?php foreach ($dataProvider->getModels() as $mail) : ?>
-    	<pre class="div-wrap-mail">
+    	<div class="div-wrap-mail">
     		<span class="span-plot <?php if ($mail->status == MailFile::STATUS_NEW) echo 'bold'; ?>">
     			<span class="fa <?= $mail->status == MailFile::STATUS_NEW ? 'fa-envelope-o' : 'fa-envelope-open-o' ?>" style="margin-right: 20px"></span> &nbsp; 
     			<span style="width: 260px"><?= date('Y, M d - H:i', $mail->epoch_received) ?></span> &nbsp; 
@@ -150,17 +150,16 @@ pre.pre-mail i:not(.fa) {
     		</span>
 	        <!-- <span class="span-dots">&middot;&middot;&middot;</span> -->
 	        <span class="span-dots pull-right"><?php echo Html::a('view html-version', ['view', 'id' => $mail->id], ['target' => '_blank']); ?></span>
-	        <pre class="pre-mail">
+	        <div class="pre-mail">
 	        	<div style="width: 300px"><i>TO:</i> <?= $mail->address_to ?></div><br/>
 	        	<div><i>TEXT-version:</i><br/><br/><?= $mail->content_text ?? '(no text-version)' ?></div><br/>
 	        	<div><i>HTML-version:</i> <?php echo Html::a('view (new tab)', ['view', 'id' => $mail->id], ['target' => '_blank', 'style' => 'color: #444']); ?></div>
                 <div>
                     <i>Attachments:</i>
-                    <?php $message = Message::from($mail->content_original, false);
-                        $message->getAttachmentCount(); ?>
+                    <?php echo $mail->attach_count; ?>
                 </div>
-            </pre>
-    	</div>
+            </div>
+    	</pre>
     <?php endforeach; ?>
 
     <?php echo LinkPager::widget([
