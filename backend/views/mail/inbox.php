@@ -141,7 +141,7 @@ pre.pre-mail i:not(.fa) {
     </h1><br/>
 
     <?php foreach ($dataProvider->getModels() as $mail) : ?>
-    	<div class="div-wrap-mail">
+    	<pre class="div-wrap-mail">
     		<span class="span-plot <?php if ($mail->status == MailFile::STATUS_NEW) echo 'bold'; ?>">
     			<span class="fa <?= $mail->status == MailFile::STATUS_NEW ? 'fa-envelope-o' : 'fa-envelope-open-o' ?>" style="margin-right: 20px"></span> &nbsp; 
     			<span style="width: 260px"><?= date('Y, M d - H:i', $mail->epoch_received) ?></span> &nbsp; 
@@ -159,7 +159,7 @@ pre.pre-mail i:not(.fa) {
                     <?php $message = Message::from($mail->content_original, false);
                         $message->getAttachmentCount(); ?>
                 </div>
-            </div>
+            </pre>
     	</div>
     <?php endforeach; ?>
 
