@@ -167,6 +167,9 @@ textarea {
 .wrap-template {
     width: 35%; float: left
 }
+.label.label-dep {
+    font-weight: 400;
+}
 @media (max-width: 768px) {
     .wrap-mail-from {
         width: 100%;
@@ -201,11 +204,8 @@ textarea {
             <div>
                 <strong class="" style="margin-right: 5px">From:</strong>
                 <span class="label label-dep label-primary" data-dep="info@damfz.co">info</span>
-                <span class="label label-dep label-grey" data-dep="contact@damfz.co">contact</span>
-                <span class="label label-dep label-grey" data-dep="support@damfz.co">support</span>
-                <span class="label label-dep label-grey" data-dep="promo@damfz.co">promo</span>
-                <span class="label label-dep label-grey" data-dep="nurgiz@damfz.co">nurgiz</span>
-                <span class="label label-dep label-grey" data-dep="eduard@damfz.co">eduard</span>
+                <span class="label label-dep label-grey" data-dep="nurgiz@damfz.co">Nurgiz</span>
+                <span class="label label-dep label-grey" data-dep="eduard@damfz.co">Eduard</span>
             </div><br/><br/><br/>
 
 

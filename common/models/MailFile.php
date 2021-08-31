@@ -94,7 +94,7 @@ class MailFile extends ActiveRecord
             $new->address_from = $message->getHeaderValue(HeaderConsts::FROM);
             $new->address_to = $message->getHeaderValue(HeaderConsts::TO);
             $new->subject = $message->getHeaderValue(HeaderConsts::SUBJECT);
-            // $new->content_original = $contents;
+            $new->content_original = $contents;
             // $new->content_html = $message->getHtmlContent();
             $new->content_text = $message->getTextContent();
             $new->type = self::TYPE_INCOMING;
