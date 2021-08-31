@@ -9,6 +9,7 @@ use yii\bootstrap\ActiveForm;
 use common\models\MailFile;
 use common\models\User;
 use yii\widgets\LinkPager;
+use ZBateson\MailMimeParser\Message;
 
 $this->title = 'Mail Inbox';
 
@@ -153,7 +154,12 @@ pre.pre-mail i:not(.fa) {
 	        	<div style="width: 300px"><i>TO:</i> <?= $mail->address_to ?></div><br/>
 	        	<div><i>TEXT-version:</i><br/><br/><?= $mail->content_text ?? '(no text-version)' ?></div><br/>
 	        	<div><i>HTML-version:</i> <?php echo Html::a('view (new tab)', ['view', 'id' => $mail->id], ['target' => '_blank', 'style' => 'color: #444']); ?></div>
-        	</pre>
+                <div>
+                    <i>Attachments:</i>
+                    <?php $message = Message::from($mail->content_original, false);
+                        $message->getAttachmentCount(); ?>
+                </div>
+            </div>
     	</div>
     <?php endforeach; ?>
 

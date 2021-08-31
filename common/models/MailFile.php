@@ -21,7 +21,10 @@ use ZBateson\MailMimeParser\Header\HeaderConsts;
  * @property string $attachments
  * @property string $content_text
  * @property string $content_html
+ * @property string $content_original
+ * @property int $attach_count
  * @property int $status
+ * @property int $type
  */
 class MailFile extends ActiveRecord
 {
@@ -46,7 +49,7 @@ class MailFile extends ActiveRecord
     {
         return [
             [['filename', 'epoch_recorded', 'address_from', 'address_to'], 'required'],
-            [['epoch_received', 'epoch_recorded', 'status'], 'integer'],
+            [['epoch_received', 'epoch_recorded', 'attach_count', 'status', 'type'], 'integer'],
             [['content_original', 'content_text', 'content_html'], 'string'],
             [['filename', 'pathname', 'address_from', 'address_to'], 'string', 'max' => 64],
             [['subject'], 'string', 'max' => 255],
@@ -83,7 +86,7 @@ class MailFile extends ActiveRecord
         {
             $contents = file_get_contents('mail/' . $filename);
 
-            $message = Message::from($contents);
+            $message = Message::from($contents, false);
 
             $new = new self();
 
@@ -94,6 +97,7 @@ class MailFile extends ActiveRecord
             $new->address_from = $message->getHeaderValue(HeaderConsts::FROM);
             $new->address_to = $message->getHeaderValue(HeaderConsts::TO);
             $new->subject = $message->getHeaderValue(HeaderConsts::SUBJECT);
+            $new->attach_count = $message->getAttachmentCount();
             $new->content_original = $contents;
             // $new->content_html = $message->getHtmlContent();
             $new->content_text = $message->getTextContent();
