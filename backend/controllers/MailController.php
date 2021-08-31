@@ -103,16 +103,20 @@ class MailController extends Controller
         $mail->status = MailFile::STATUS_READ;
         $mail->save();
 
+        $atts = [];
+
         try {
             $contents = file_get_contents('mail/' . $mail->filename);
             $message = Message::from($contents);
-            $html = $contents ?? $message->getHtmlContent() ?? $message->getTextContent();
+            $html = $message->getHtmlContent() ?? $message->getTextContent();
+            $atts = $message->getAllAttachmentParts();
         } catch (Exception $e) {
             $html = $mail->content_text;
         }
 
         return $this->render('view', [
             'html' => $html,
+            'attachments' => $atts,
         ]);
     }
 
