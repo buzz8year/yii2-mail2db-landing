@@ -106,7 +106,7 @@ class MailController extends Controller
         try {
             $contents = file_get_contents('mail/' . $mail->filename);
             $message = Message::from($contents);
-            $html = $message->getHtmlContent() ?? $message->getTextContent();
+            $html = $contents ?? $message->getHtmlContent() ?? $message->getTextContent();
         } catch (Exception $e) {
             $html = $mail->content_text;
         }
