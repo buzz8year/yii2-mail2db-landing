@@ -4,7 +4,7 @@
 namespace backend\models\search;
 
 
-use common\models\MailFile;
+use backend\models\MailFile;
 use yii\data\ActiveDataProvider;
 
 

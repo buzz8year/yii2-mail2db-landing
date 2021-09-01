@@ -1,6 +1,6 @@
 <?php
 
-namespace common\models;
+namespace backend\models;
 
 //use Yii;
 use yii\db\ActiveRecord;
@@ -98,8 +98,8 @@ class MailFile extends ActiveRecord
             $new->address_to = $message->getHeaderValue(HeaderConsts::TO);
             $new->subject = $message->getHeaderValue(HeaderConsts::SUBJECT);
             $new->attach_count = $message->getAttachmentCount();
-            $new->content_original = $contents;
-            // $new->content_html = $message->getHtmlContent();
+            //$new->content_original = $contents;
+            //$new->content_html = $message->getHtmlContent();
             $new->content_text = $message->getTextContent();
             $new->type = self::TYPE_INCOMING;
             $new->status = self::STATUS_NEW;
@@ -129,5 +129,31 @@ class MailFile extends ActiveRecord
         $new->save();
 
         //Yii::$app->session->setFlash('danger', json_encode($new->errors));
+    }
+
+
+    public function getAttachFile(int $index)
+    {
+        $contents = file_get_contents('mail/' . $this->filename);
+        $message = Message::from($contents, false);
+        //$message = Message::from($this->content_original, false);
+
+        $att = $message->getAttachmentPart($index);
+        $att->getContentStream();
+
+        $exploded = explode('.', $att->getFilename());
+        $file = sprintf('attachment/%d_%s.%s',
+            $this->id,
+            md5($att->getFilename()),
+            end($exploded)
+        );
+
+        if (!file_exists($file))
+        {
+            fopen($file, 'x');
+            $att->saveContent($file);
+        }
+
+        return $file;
     }
 }

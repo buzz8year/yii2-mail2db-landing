@@ -83,7 +83,7 @@
 
 		/**
 		 * Current breakpoint.
-		 * @todo Real media queries would be nice.
+		 * @todo Real attachment queries would be nice.
 		 * @protected
 		 */
 		this._breakpoint = null;
@@ -498,7 +498,7 @@
 	/**
 	 * Setups the current settings.
 	 * @todo Remove responsive classes. Why should adaptive designs be brought into IE8?
-	 * @todo Support for media queries by using `matchMedia` would be nice.
+	 * @todo Support for attachment queries by using `matchMedia` would be nice.
 	 * @public
 	 */
 	Owl.prototype.setup = function() {

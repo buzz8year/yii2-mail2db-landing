@@ -2663,7 +2663,7 @@
 // ==========================================================================
 //
 // Media
-// Adds additional media type support
+// Adds additional attachment type support
 //
 // ==========================================================================
 ;(function ($) {
@@ -2694,7 +2694,7 @@
 		return url;
 	};
 
-	// Object containing properties for each media type
+	// Object containing properties for each attachment type
 
 	var media = {
 		youtube: {
@@ -2790,7 +2790,7 @@
 				return;
 			}
 
-			// Look for any matching media type
+			// Look for any matching attachment type
 
 			$.each(media, function ( n, el ) {
 				rez = url.match(el.matcher);

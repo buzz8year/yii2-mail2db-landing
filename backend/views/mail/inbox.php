@@ -2,12 +2,9 @@
 
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
-/* @var $model \frontend\models\ContactForm */
 
 use yii\helpers\Html;
-use yii\bootstrap\ActiveForm;
-use common\models\MailFile;
-use common\models\User;
+use backend\models\MailFile;
 use yii\widgets\LinkPager;
 
 $this->title = 'Mail Inbox';
@@ -154,8 +151,9 @@ pre.pre-mail i:not(.fa) {
 	        	<div><i>TEXT-version:</i><br/><br/><?= $mail->content_text ?? '(no text-version)' ?></div><br/>
 	        	<div><i>HTML-version:</i> <?php echo Html::a('view (new tab)', ['view', 'id' => $mail->id], ['target' => '_blank', 'style' => 'color: #444']); ?></div>
         	    <div>
-                    <i>Attachments:</i>
-                    <?php echo $mail->attach_count; ?>
+                    <i>Attachments:</i> <?php echo $mail->attach_count
+                        ? Html::a($mail->attach_count . ' file(s)', ['view-attach', 'mailId' => $mail->id, 'attachIndex' => 0], ['target' => '_blank', 'style' => 'color: #444', 'title' => 'View in new tab'])
+                        : 'no'; ?>
                 </div>
             </pre>
 

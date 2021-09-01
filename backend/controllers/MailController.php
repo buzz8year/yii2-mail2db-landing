@@ -3,11 +3,11 @@ namespace backend\controllers;
 
 use backend\models\search\MailSearch;
 use Yii;
+use yii\helpers\Html;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
-use yii\filters\AccessControl;
 use backend\models\MailForm;
-use common\models\MailFile;
+use backend\models\MailFile;
 use common\models\User;
 use Exception;
 
@@ -114,6 +114,28 @@ class MailController extends Controller
         return $this->render('view', [
             'html' => $html,
         ]);
+    }
+
+
+
+    public function actionViewAttach(int $mailId, int $attachIndex)
+    {
+        $this->layout = false;
+
+        $mail = MailFile::find()->where(['id' => $mailId])->one();
+        $mail->status = MailFile::STATUS_READ;
+        $mail->save();
+
+        try
+        {
+            return $this->redirect( '/' . $mail->getAttachFile($attachIndex) );
+        }
+        catch (Exception $e)
+        {
+            Yii::$app->session->setFlash(json_encode($e));
+        }
+
+        return $this->redirect(Yii::$app->request->referrer);
     }
 
 

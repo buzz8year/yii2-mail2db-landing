@@ -1,9 +1,8 @@
 <?php
-namespace common\helpers;
+namespace backend\models;
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
-use common\models\MailFile;
 use Yii;
 
 /*
