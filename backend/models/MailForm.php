@@ -6,7 +6,6 @@ use Yii;
 use Exception;
 use yii\base\Model;
 use yii\validators\EmailValidator;
-use common\helpers\Mailer;
 
 /**
  * ContactForm is the model behind the contact form.
