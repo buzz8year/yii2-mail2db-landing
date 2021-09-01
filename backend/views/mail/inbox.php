@@ -152,7 +152,7 @@ pre.pre-mail i:not(.fa) {
 	        	<div><i>HTML-version:</i> <?php echo Html::a('view (new tab)', ['view', 'id' => $mail->id], ['target' => '_blank', 'style' => 'color: #444']); ?></div>
         	    <div>
                     <i>Attachments:</i> <?php echo $mail->attach_count
-                        ? Html::a($mail->getAttachFile(0) . ' file(s)', ['view-attach', 'mailId' => $mail->id, 'attachIndex' => 0], ['target' => '_blank', 'style' => 'color: #444', 'title' => 'View in new tab'])
+                        ? Html::a($mail->attach_count . ' file(s)', ['view-attach', 'mailId' => $mail->id, 'attachIndex' => 0], ['target' => '_blank', 'style' => 'color: #444', 'title' => 'View in new tab'])
                         : 'no'; ?>
                 </div>
             </pre>
