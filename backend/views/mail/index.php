@@ -202,7 +202,7 @@ textarea {
             <div>
                 <strong class="" style="margin-right: 5px">From:</strong>
                 <span class="label label-dep label-primary" data-dep="info@damfz.co">info</span>
-                <span class="label label-dep label-grey" data-dep="nurgiz@damfz.co">Nurgiz</span>
+                <span class="label label-dep label-grey" data-dep="nurgyz@damfz.co">Nurgyz</span>
                 <span class="label label-dep label-grey" data-dep="eduard@damfz.co">Eduard</span>
             </div><br/><br/><br/>
 
