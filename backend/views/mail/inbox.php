@@ -9,7 +9,6 @@ use yii\bootstrap\ActiveForm;
 use common\models\MailFile;
 use common\models\User;
 use yii\widgets\LinkPager;
-use ZBateson\MailMimeParser\Message;
 
 $this->title = 'Mail Inbox';
 
@@ -132,7 +131,7 @@ pre.pre-mail i:not(.fa) {
 }
 </style>
 
-<pre class="site-contact">
+<div class="site-contact">
 
     <h1 style="position: relative;">
         <span>Inbox</span>
@@ -150,16 +149,17 @@ pre.pre-mail i:not(.fa) {
     		</span>
 	        <!-- <span class="span-dots">&middot;&middot;&middot;</span> -->
 	        <span class="span-dots pull-right"><?php echo Html::a('view html-version', ['view', 'id' => $mail->id], ['target' => '_blank']); ?></span>
-	        <div class="pre-mail">
+	        <pre class="pre-mail">
 	        	<div style="width: 300px"><i>TO:</i> <?= $mail->address_to ?></div><br/>
 	        	<div><i>TEXT-version:</i><br/><br/><?= $mail->content_text ?? '(no text-version)' ?></div><br/>
 	        	<div><i>HTML-version:</i> <?php echo Html::a('view (new tab)', ['view', 'id' => $mail->id], ['target' => '_blank', 'style' => 'color: #444']); ?></div>
-                <div>
+        	    <div>
                     <i>Attachments:</i>
                     <?php echo $mail->attach_count; ?>
                 </div>
-            </div>
-    	</pre>
+            </pre>
+
+    	</div>
     <?php endforeach; ?>
 
     <?php echo LinkPager::widget([
