@@ -29,6 +29,10 @@ body.blank .wrap > div {
     width: 100%;
 }
 
+.container {
+    width: 80%;
+}
+
 .wrap > .container {
     padding: 70px 15px 20px;
 }
