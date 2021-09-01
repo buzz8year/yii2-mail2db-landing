@@ -6,9 +6,7 @@
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
-use yii\captcha\Captcha;
-use common\models\User;
-use common\models\MailFile;
+use backend\models\MailFile;
 
 $this->title = 'Mail';
 
