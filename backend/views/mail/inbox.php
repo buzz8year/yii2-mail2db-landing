@@ -142,7 +142,7 @@ pre.pre-mail i:not(.fa) {
     			<span class="fa <?= $mail->status == MailFile::STATUS_NEW ? 'fa-envelope-o' : 'fa-envelope-open-o' ?>" style="margin-right: 20px"></span> &nbsp; 
     			<span style="width: 260px"><?= date('Y, M d - H:i', $mail->epoch_received) ?></span> &nbsp; 
     			<span style="width: 300px"><span>from</span>: <span><?= $mail->address_from ?></span></span> &nbsp; 
-    			<span><span>subject</span>: <span><?= $mail->subject ?></span></span> &nbsp; 
+    			<span><span>subject</span>: <span style="overflow: hidden; white-space: nowrap"><?= $mail->subject ?></span></span> &nbsp;
     		</span>
 	        <!-- <span class="span-dots">&middot;&middot;&middot;</span> -->
 	        <span class="span-dots pull-right"><?php echo Html::a('view html-version', ['view', 'id' => $mail->id], ['target' => '_blank']); ?></span>
