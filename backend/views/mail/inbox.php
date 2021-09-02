@@ -151,6 +151,7 @@ pre.pre-mail i:not(.fa) {
 	        <span class="span-dots pull-right"><?php echo Html::a('view html-version', ['view', 'id' => $mail->id], ['target' => '_blank']); ?></span>
 	        <pre class="pre-mail">
 	        	<div style="width: 300px"><i>TO:</i> <?= $mail->address_to ?></div><br/>
+                <div style="width: 300px"><i>Subject:</i> <?= $mail->subject ?></div><br/>
 	        	<div><i>TEXT-version:</i><br/><br/><?= $mail->content_text ?? '(no text-version)' ?></div><br/>
 	        	<div><i>HTML-version:</i> <?php echo Html::a('view (new tab)', ['view', 'id' => $mail->id], ['target' => '_blank', 'style' => 'color: #444']); ?></div>
         	    <div>
