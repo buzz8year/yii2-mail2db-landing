@@ -128,7 +128,7 @@ pre.pre-mail i:not(.fa) {
 }
 .span-subject {
     overflow: hidden; white-space: nowrap; max-width: 35vw; display: inline-flex;
- }
+}
 </style>
 
 <div class="site-contact">
