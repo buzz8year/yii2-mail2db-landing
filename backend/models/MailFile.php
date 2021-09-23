@@ -105,8 +105,6 @@ class MailFile extends ActiveRecord
             $new->status = self::STATUS_NEW;
 
             $new->save();
-
-            //Yii::$app->session->setFlash('danger', json_encode($new->errors));
         }
     }
 
