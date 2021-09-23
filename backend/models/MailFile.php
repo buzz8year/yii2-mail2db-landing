@@ -100,7 +100,7 @@ class MailFile extends ActiveRecord
             $new->attach_count = $message->getAttachmentCount();
             //$new->content_original = $contents;
             //$new->content_html = $message->getHtmlContent();
-            $new->content_text = $message->getTextContent();
+            //$new->content_text = $message->getTextContent();
             $new->type = self::TYPE_INCOMING;
             $new->status = self::STATUS_NEW;
 
