@@ -5,7 +5,7 @@
     <h1 align="left">Mail Dashboard Starter Kit</h1>
 </p>
 
-This is an implementation of yii2-based simple mail dashboard with minimal database entities for mails.
+<code>yii2-mail2db</code> is an implementation of yii2-based simple mail dashboard with minimal database entities for mails.
 
 - Reads mail-file from directory, writes mail data (full or part) to DB, CRUD functions for mail-entites. 
 
