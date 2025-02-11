@@ -12,12 +12,12 @@
         <div style="height:20px;"></div>
 
         <ul class="box-menu1">
-            <li><a href="#advantages"><?= Yii::t('app', 'Преимущества') ?></a></li>
-            <li><a href="#hardware"><?= Yii::t('app', 'Оборудование') ?></a></li>
-            <li><a href="#guarantee"><?= Yii::t('app', 'Гарантии') ?></a></li>
-            <li><a href="#services"><?= Yii::t('app', 'Услуги') ?></a></li>
-            <li><a href="#cases"><?= Yii::t('app', 'Кейсы') ?></a></li>
-            <li><a href="#сontacts"><?= Yii::t('app', 'Контакты') ?></a></li>
+            <li><a href="#advantages">Advantages</a></li>
+            <li><a href="#hardware">Hardware</a></li>
+            <li><a href="#guarantee">Warranty</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#cases">Cases</a></li>
+            <li><a href="#сontacts">Contacts</a></li>
         </ul>  
         
         <a class="btn-lang1 navbar-lang <?= Yii::$app->language != 'en-US' ?: 'hidden' ?>" data-lang="en-US">EN</a> 
@@ -38,14 +38,14 @@
             <div class="col-lg-9 col-md-8 hidden-sm hidden-xs">
 
                 <div class="menu">
-                    <ul>
-                        <li><a href="#advantages"><?= Yii::t('app', 'Преимущества') ?></a></li> 
-                        <li><a href="#hardware"><?= Yii::t('app', 'Оборудование') ?></a></li>   
-                        <li><a href="#guarantee"><?= Yii::t('app', 'Гарантии') ?></a></li>   
-                        <li><a href="#services"><?= Yii::t('app', 'Услуги') ?></a></li> 
-                        <li><a href="#cases"><?= Yii::t('app', 'Кейсы') ?></a></li>  
-                        <li><a href="#сontacts"><?= Yii::t('app', 'Контакты') ?></a></li>   
-                    </ul>
+                    <ul class="box-menu1">
+                        <li><a href="#advantages">Advantages</a></li>
+                        <li><a href="#hardware">Hardware</a></li>
+                        <li><a href="#guarantee">Warranty</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#cases">Cases</a></li>
+                        <li><a href="#сontacts">Contacts</a></li>
+                    </ul>  
                 </div>
                 
                 <a class="btn-lang navbar-lang <?= Yii::$app->language != 'en-US' ?: 'hidden' ?>" data-lang="en-US">EN</a> 
@@ -85,7 +85,7 @@
         <div class="row">
             <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
                 
-                <div class="block2-label1"><?= Yii::t('app', 'О проекте') ?></div>
+                <div class="block2-label1">About Us</div>
                 <div class="block2-label2">Some text to wrap head around what your business is and why you effective.</div>
                 
             </div>
@@ -103,7 +103,7 @@
 <div class="container-fluid container-fluid1" id="advantages">
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">   
-            <div class="block4-label1"><?= Yii::t('app', 'Наши преимущества') ?></div>
+            <div class="block4-label1">Our Advantages</div>
         </div>
     </div>
 </div>
@@ -112,13 +112,13 @@
 
     <span class="orbit"></span>
 
-    <div class="block4-txt block4-txt1"><?= Yii::t('app', 'Опыт успешной деятельности в IT сфере с 2017 года и долгосрочные налаженные контакты с партнерами') ?></div>
-    <div class="block4-txt block4-txt2"><?= Yii::t('app', 'Мы круглосуточно осуществляем мониторинг всех текущих процессов') ?></div>
-    <div class="block4-txt block4-txt3"><?= Yii::t('app', 'Прямые поставки оборудования без  посредников по оптовым ценам') ?></div>
-    <div class="block4-txt block4-txt4"><?= Yii::t('app', 'Высококлассная IT команда – гарантия надежности рабочих процессов') ?></div>
-    <div class="block4-txt block4-txt5"><?= Yii::t('app', 'Собственные разработки и IT-решения') ?></div>
-    <div class="block4-txt block4-txt6"><?= Yii::t('app', 'Партнеры со всего мира') ?></div>
-    <div class="block4-txt block4-txt7"><?= Yii::t('app', 'Оптимальная локация дата-центра в регионах с холодным  климатом, чтобы обеспечить идеальную температуру помещений для хостинга и минимизировать расходы на электроэнергию за счет естественного охлаждения оборудования') ?></div>
+    <div class="block4-txt block4-txt1">Best geo positioning leads to lowest energy bills.</div>
+    <div class="block4-txt block4-txt2">Worldwide network.</div>
+    <div class="block4-txt block4-txt3">Best prices from our hardware providers.</div>
+    <div class="block4-txt block4-txt4">Highly professional engineering team.</div>
+    <div class="block4-txt block4-txt5">We have many out-of-box solutions.</div>
+    <div class="block4-txt block4-txt6">Some advantage description.</div>
+    <div class="block4-txt block4-txt7">Some advantage description.</div>
 </div>
 
 <div class="block5" id="cases">
@@ -158,7 +158,7 @@
                 <div class="block6-label3">Some text to wrap head around what your business is and why you effective.</div>    
                 <div class="block6-label4">Some text to wrap head around what your business is and why you effective.</div>
                 <div class="block6-btn" style="margin-bottom: 60px">
-                    <button class="btn4 btn btn-primary2 popupbutton1" href="#popupform1"><?= Yii::t('app', 'Получить консультацию') ?></button>
+                    <button class="btn4 btn btn-primary2 popupbutton1" href="#popupform1">Get Consulted</button>
                 </div>              
             </div>
 
@@ -203,18 +203,22 @@
 </div>
 
 <div class="block8">
+    
     <div class="container-fluid container-fluid1">
+        
     <div class="row">
+        
         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-            <div class="block8-label1">Service A</div>
+            <div class="block8-label1">Our Services</div>
             <div class="block8-label2">Some text to wrap head around what your business is and why you effective.</div>
         </div>
+        
         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
             
             <div class="box-part1">
                 <div class="box-circle1 box-circle">
                     <div class="box-circle1-wr">
-                        <div class="box-circle1-label1">Some text to wrap head around what your business is and why you effective.</div>                   
+                        <div class="box-circle1-label1">Service A. Some text to wrap head around what your business is and why you effective.</div>                   
                     </div>
                 </div>
                 <div style="clear:both;"></div>             
@@ -223,7 +227,7 @@
             <div class="box-part2">
                 <div class="box-circle2 box-circle">
                     <div class="box-circle2-wr">
-                        <div class="box-circle2-label1">Some text to wrap head around what your business is and why you effective.</div>                  
+                        <div class="box-circle2-label1">Service D. Some text to wrap head around what your business is and why you effective.</div>                  
                     </div>
                 </div>
                 <div style="clear:both;"></div>                 
@@ -342,9 +346,9 @@
                                     <div class="inp1 "><input type="text" class="inppole required" value=""  name="consult-name" placeholder="Name"/></div>
                                     <div class="inp1 "><input type="text" class="inppole required" value=""  name="consult-phone" placeholder="Email"/></div>
                                     <div class="inp2 "><textarea name="consult-body" class="inppole required" placeholder="Your message..."></textarea></div>
-                                    <div class="inp3"><?= Yii::t('app', 'Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Согласии на обработку персональных данных *') ?></div>
+                                    <div class="inp3">By clicking the “Submit” button, I give my consent to the processing of my personal data, in accordance with Federal Law No.A123 “On Personal Data”, under the conditions and for the purposes specified in the Consent to the processing of personal data *</div>
                                     
-                                    <button class="btn btn-primary5 post-consult">Send</button>
+                                    <button class="btn btn-primary5 post-consult">Submit</button>
                                     
                                 </div>
                                 <div class="box-end1 end1">
@@ -386,7 +390,7 @@
                     <img class="box-plus-img" src="images/c2.png">
                     <div class="box-contacts1">
                         <div class="box-contacts-label1">Email:</div>
-                        <div class="box-contacts-label2" style="font-size: 23px">yourcompany@gmail.com</div>                    
+                        <div class="box-contacts-label2" style="font-size: 23px">yourCompany@gmail.com</div>                    
                     </div>
                     <div style="clear:both;"></div>
                 </div>
