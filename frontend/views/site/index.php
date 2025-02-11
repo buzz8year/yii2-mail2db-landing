@@ -70,8 +70,8 @@
                 <div class="block1-label1">Your Company Name</div>
                 <div class="block1-label2">Some text to wrap head around what your business is and why you effective.</div>
                 <div class="block1-btn">
-                    <!-- <button class="btn1 btn btn-primary1 btn-right popupbutton1" href="#popupform_text1">Подробнее</button> -->
-                    <button class="btn2 btn btn-primary2 popupbutton1" href="#popupform1"><?= Yii::t('app', 'Получить консультацию') ?></button>
+                    <!-- <button class="btn1 btn btn-primary1 btn-right popupbutton1" href="#popupform_text1">More</button> -->
+                    <button class="btn2 btn btn-primary2 popupbutton1" href="#popupform1">Get Consulted</button>
                 </div>
                 
             </div>
@@ -91,7 +91,7 @@
             </div>
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                 <div class="block2-btn">    
-                    <button class="btn3 btn btn-primary3 popupbutton1" href="#popupform1"><?= Yii::t('app', 'Получить консультацию') ?></button>
+                    <button class="btn3 btn btn-primary3 popupbutton1" href="#popupform1">Get Consulted</button>
                 </div>  
             </div>
         </div>
