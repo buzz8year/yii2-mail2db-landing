@@ -1,4 +1,4 @@
-<div id="popupform2" class="popupform popupform1 frm2">
+<div id="popupform2" class="popupform popupform2 frm2">
     <div class="feedback_form">
         <div class="feedback_form_lbl">
         <div class="feedback_form_lbl_wr">
