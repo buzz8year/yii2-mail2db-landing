@@ -1,5 +1,5 @@
 <p align="left">
-    <h1 align="left">Company mailserver w/ landing page starter kit</h1>
+    <h1 align="left">Company simple mailserver w/ landing page starter kit</h1>
 </p>
 
 This is a simple implementation of landing page based on <code>yii2-mail2db</code>
